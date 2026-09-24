@@ -1,0 +1,1144 @@
+{
+ "version": 1,
+ "initials": {
+  "": {
+   "text": "'",
+   "kirby": "[ʔ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ʔa] à；普通话没有这个音"
+  },
+  "b": {
+   "text": "B",
+   "kirby": "[ɓ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ɓa] ba；普通话没有这个音"
+  },
+  "c": {
+   "text": "g",
+   "kirby": "[k]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ka] ca；台大 Lin & Chung 2013 注音拼音音标对照表 ㄍ g = k 行，同一音标"
+  },
+  "k": {
+   "text": "g",
+   "kirby": "[k]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 [kiŋ̟] Kinh；拼写 k = c：Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第5、13行；台大 Lin & Chung 2013 注音拼音音标对照表 ㄍ g = k 行，同一音标"
+  },
+  "qu": {
+   "text": "gw",
+   "kirby": "[kʷ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第23行 qu = kʷ；Kirby 2011《国际语音学会会刊》41(3) 第382页 w 为声母表近音 [wan] oan；台大 Lin & Chung 2013 注音拼音音标对照表 ㄍ g = k、ㄨ w 行，同一音标"
+  },
+  "ch": {
+   "text": "j",
+   "kirby": "[tɕ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [tɕa] cha；台大 Lin & Chung 2013 注音拼音音标对照表 ㄐ j = tɕ 行，同一音标"
+  },
+  "tr": {
+   "text": "j",
+   "kirby": "[tɕ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页正文：河内 tr 与 ch 完全合并为 [tɕ]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄐ j = tɕ 行，同一音标"
+  },
+  "d": {
+   "text": "Z",
+   "kirby": "[z]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [za] da；普通话没有这个音"
+  },
+  "gi": {
+   "text": "Z",
+   "kirby": "[z]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384–385页 [zup] giúp、[zɛw] gieo；普通话没有这个音"
+  },
+  "r": {
+   "text": "Z",
+   "kirby": "[z]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第385页 [zăw] rau、[zɤ̆w] râu；第382页正文：r 多数人读 [z]；普通话没有这个音"
+  },
+  "đ": {
+   "text": "D",
+   "kirby": "[ɗ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ɗa] đa；普通话没有这个音"
+  },
+  "g": {
+   "text": "G",
+   "kirby": "[ɣ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ɣa] gà；普通话没有这个音"
+  },
+  "gh": {
+   "text": "G",
+   "kirby": "[ɣ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第9–10行 g = gh = ɣ；Kirby 2011《国际语音学会会刊》41(3) 第382页 [ɣa] gà；普通话没有这个音"
+  },
+  "h": {
+   "text": "H",
+   "kirby": "[h]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ha] hà；普通话没有这个音（台大 Lin & Chung 2013 注音拼音音标对照表 ㄏ 行北京音是 x，不是 h）"
+  },
+  "kh": {
+   "text": "h",
+   "kirby": "[x]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [xa] khá；台大 Lin & Chung 2013 注音拼音音标对照表 ㄏ h = x（北京音） 行，同一音标"
+  },
+  "l": {
+   "text": "l",
+   "kirby": "[l]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [la] là；台大 Lin & Chung 2013 注音拼音音标对照表 ㄌ l = l 行，同一音标"
+  },
+  "m": {
+   "text": "m",
+   "kirby": "[m]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ma] ma；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m = m 行，同一音标"
+  },
+  "n": {
+   "text": "n",
+   "kirby": "[n]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [na] na；台大 Lin & Chung 2013 注音拼音音标对照表 ㄋ n = n 行，同一音标"
+  },
+  "ng": {
+   "text": "ng",
+   "kirby": "[ŋ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ŋa] Nga；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang = ɑŋ 的韵尾 ng = ŋ 行，同一音标"
+  },
+  "ngh": {
+   "text": "ng",
+   "kirby": "[ŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第18–19行 ng = ngh = ŋ；Kirby 2011《国际语音学会会刊》41(3) 第382页 [ŋa] Nga；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ng = ŋ，同一音标"
+  },
+  "nh": {
+   "text": "NY",
+   "kirby": "[ɲ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ɲa] nhà；普通话没有这个音"
+  },
+  "p": {
+   "text": "b",
+   "kirby": "[p]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页正文：p 只见于外来词，如 [pan] panne，很多人读成 [b/ɓ]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄅ b = p 行，同一音标"
+  },
+  "ph": {
+   "text": "f",
+   "kirby": "[f]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [fa] pha；台大 Lin & Chung 2013 注音拼音音标对照表 ㄈ f = f 行，同一音标"
+  },
+  "s": {
+   "text": "s",
+   "kirby": "[s]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 [sɛk̟] sách；台大 Lin & Chung 2013 注音拼音音标对照表 ㄙ s = s 行，同一音标"
+  },
+  "x": {
+   "text": "s",
+   "kirby": "[s]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [sa] xa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄙ s = s 行，同一音标"
+  },
+  "t": {
+   "text": "d",
+   "kirby": "[t]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ta] ta；台大 Lin & Chung 2013 注音拼音音标对照表 ㄉ d = t 行，同一音标"
+  },
+  "th": {
+   "text": "t",
+   "kirby": "[tʰ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [tʰa] tha；台大 Lin & Chung 2013 注音拼音音标对照表 ㄊ t = tʰ 行，同一音标"
+  },
+  "v": {
+   "text": "V",
+   "kirby": "[v]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [va] và；普通话没有这个音"
+  }
+ },
+ "rhymes": {
+  "a": {
+   "text": "A",
+   "kirby": "[a]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；词表例词 a、ha、la"
+  },
+  "ac": {
+   "text": "AK",
+   "kirby": "[ak]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 pac、mac、ac"
+  },
+  "ach": {
+   "text": "êCH",
+   "kirby": "[ɛk̟]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 [sɛk̟] sách；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 ach、mach、khach"
+  },
+  "ai": {
+   "text": "Ai",
+   "kirby": "[aj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 thai、hai、ai"
+  },
+  "am": {
+   "text": "Am",
+   "kirby": "[am]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 cam、nam、am"
+  },
+  "an": {
+   "text": "An",
+   "kirby": "[an]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 han、quan、an"
+  },
+  "ang": {
+   "text": "Ang",
+   "kirby": "[aŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 vang、khang、tang"
+  },
+  "anh": {
+   "text": "êNH",
+   "kirby": "[ɛŋ̟]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 [kɛŋ̟] canh、第385页 [sɛŋ̟] xanh；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 khanh、anh、danh"
+  },
+  "ao": {
+   "text": "Au",
+   "kirby": "[aw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 đao、hao、ao"
+  },
+  "ap": {
+   "text": "AP",
+   "kirby": "[ap]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 giap、ap、tap"
+  },
+  "at": {
+   "text": "AT",
+   "kirby": "[at]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 sat、at、hat"
+  },
+  "au": {
+   "text": "Ău",
+   "kirby": "[ăw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 au、nhau、nau"
+  },
+  "ay": {
+   "text": "Ăi",
+   "kirby": "[ăj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 nay、may、ay"
+  },
+  "e": {
+   "text": "ê",
+   "kirby": "[ɛ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；词表例词 que、xe、de"
+  },
+  "ec": {
+   "text": "êK",
+   "kirby": "[ɛk]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 bec、vec、ec"
+  },
+  "em": {
+   "text": "êm",
+   "kirby": "[ɛm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 em、ghem、khem"
+  },
+  "en": {
+   "text": "ên",
+   "kirby": "[ɛn]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 men、chen、đen"
+  },
+  "eng": {
+   "text": "êêng",
+   "kirby": "[ɛːŋ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 [sɛːŋ] xẻng（真软腭、长元音）；Kirby 2011《国际语音学会会刊》41(3) 第383–384页 [sɛːŋ] xẻng（长）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 beng、pheng、meng"
+  },
+  "eo": {
+   "text": "êu",
+   "kirby": "[ɛw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 treo、beo、theo"
+  },
+  "ep": {
+   "text": "êP",
+   "kirby": "[ɛp]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 nep、kep、ep"
+  },
+  "et": {
+   "text": "êT",
+   "kirby": "[ɛt]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 vet、chet、tet"
+  },
+  "i": {
+   "text": "i",
+   "kirby": "[i]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；词表例词 ni、ki、phi"
+  },
+  "ia": {
+   "text": "iᵉ",
+   "kirby": "[iə]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；词表例词 nghia、đia、via"
+  },
+  "ich": {
+   "text": "iCH",
+   "kirby": "[ik̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 tich、phich、lich"
+  },
+  "im": {
+   "text": "im",
+   "kirby": "[im]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 kim、phim、bim"
+  },
+  "in": {
+   "text": "in",
+   "kirby": "[in]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 xin、tin、in"
+  },
+  "ing": {
+   "text": "iNH",
+   "kirby": "[iŋ̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 ping"
+  },
+  "inh": {
+   "text": "iNH",
+   "kirby": "[iŋ̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 tinh、ninh、linh"
+  },
+  "ip": {
+   "text": "iP",
+   "kirby": "[ip]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 mip、nhip、kip"
+  },
+  "it": {
+   "text": "iT",
+   "kirby": "[it]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 nit、thit、sit"
+  },
+  "iu": {
+   "text": "i·u",
+   "kirby": "[iw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 iu、xiu、chiu"
+  },
+  "iê": {
+   "text": "iᵉ",
+   "kirby": "[iə]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；词表例词 giê"
+  },
+  "iêc": {
+   "text": "iᵉK",
+   "kirby": "[iək]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 tiêc、viêc、biêc"
+  },
+  "iêm": {
+   "text": "iᵉm",
+   "kirby": "[iəm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 điêm、tiêm、hiêm"
+  },
+  "iên": {
+   "text": "iᵉn",
+   "kirby": "[iən]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 phiên、chiên、nhiên"
+  },
+  "iêng": {
+   "text": "iᵉng",
+   "kirby": "[iəŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 miêng、kiêng、tiêng"
+  },
+  "iêp": {
+   "text": "iᵉP",
+   "kirby": "[iəp]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 hiêp、nghiêp、tiêp"
+  },
+  "iêt": {
+   "text": "iᵉT",
+   "kirby": "[iət]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 nhiêt、liêt、nghiêt"
+  },
+  "iêu": {
+   "text": "iᵉu",
+   "kirby": "[iəw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 hiêu、tiêu、điêu"
+  },
+  "o": {
+   "text": "o",
+   "kirby": "[ɔ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；词表例词 mo、co、to"
+  },
+  "oa": {
+   "text": "wA",
+   "kirby": "[wa]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；词表例词 toa、hoa、thoa",
+   "zero": "wA"
+  },
+  "oac": {
+   "text": "wAK",
+   "kirby": "[wak]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 khoac、toac、choac",
+   "zero": "wAK"
+  },
+  "oach": {
+   "text": "wêCH",
+   "kirby": "[wɛk̟]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 ach = [ɛk̟]，第382页 o 在元音前 = w；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 hoach、ngoach、oach",
+   "zero": "wêCH"
+  },
+  "oai": {
+   "text": "wAi",
+   "kirby": "[waj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 oai、ngoai、thoai",
+   "zero": "wAi"
+  },
+  "oam": {
+   "text": "wAm",
+   "kirby": "[wam]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 oam、ngoam、nhoam",
+   "zero": "wAm"
+  },
+  "oan": {
+   "text": "wAn",
+   "kirby": "[wan]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 hoan、oan、toan",
+   "zero": "wAn"
+  },
+  "oang": {
+   "text": "wAng",
+   "kirby": "[waŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 hoang、choang、loang",
+   "zero": "wAng"
+  },
+  "oanh": {
+   "text": "wêNH",
+   "kirby": "[wɛŋ̟]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 anh = [ɛŋ̟]，第382页 o 在元音前 = w；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 doanh、khoanh、hoanh",
+   "zero": "wêNH"
+  },
+  "oao": {
+   "text": "wĂu",
+   "kirby": "[wăw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 khoao、ngoao",
+   "zero": "wĂu"
+  },
+  "oap": {
+   "text": "wAP",
+   "kirby": "[wap]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 choap、oap",
+   "zero": "wAP"
+  },
+  "oat": {
+   "text": "wAT",
+   "kirby": "[wat]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰa] tha（台大 Lin & Chung 2013 注音拼音音标对照表 ㄚ 单念是 ɑ，不同）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 loat、đoat、hoat",
+   "zero": "wAT"
+  },
+  "oay": {
+   "text": "wĂi",
+   "kirby": "[wăj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 xoay、hoay、khoay",
+   "zero": "wĂi"
+  },
+  "oc": {
+   "text": "oKP",
+   "kirby": "[ɔk͡p]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 k 变双唇软腭 [ukp] Úc；词表例词 hoc、toc、ngoc"
+  },
+  "oe": {
+   "text": "wê",
+   "kirby": "[wɛ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；词表例词 oe、choe、hoe",
+   "zero": "wê"
+  },
+  "oen": {
+   "text": "wên",
+   "kirby": "[wɛn]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 hoen、loen、nhoen",
+   "zero": "wên"
+  },
+  "oeo": {
+   "text": "wêu",
+   "kirby": "[wɛw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 khoeo、ngoeo",
+   "zero": "wêu"
+  },
+  "oet": {
+   "text": "wêT",
+   "kirby": "[wɛt]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 choet、loet、ngoet",
+   "zero": "wêT"
+  },
+  "oi": {
+   "text": "oi",
+   "kirby": "[ɔj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 oi、goi、hoi"
+  },
+  "om": {
+   "text": "om",
+   "kirby": "[ɔm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 bom、nhom、mom"
+  },
+  "on": {
+   "text": "on",
+   "kirby": "[ɔn]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 bon、mon、ngon"
+  },
+  "ong": {
+   "text": "oNGM",
+   "kirby": "[ɔŋ͡m]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 ŋ 变双唇软腭 [uŋ͡m] ung；词表例词 tong、vong、đong"
+  },
+  "ooc": {
+   "text": "ooK",
+   "kirby": "[ɔːk]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第51行 oo = ɔː；Kirby 2011《国际语音学会会刊》41(3) 第384页 oo 为长 ɔː 且不变双唇软腭；Kirby 2011《国际语音学会会刊》41(3) 第384页 [sɔːŋ] xoong、[ɓɔːŋ] boong（长）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 cooc、mooc、sooc"
+  },
+  "oong": {
+   "text": "oong",
+   "kirby": "[ɔːŋ]",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页 [sɔːŋ] xoong、[ɓɔːŋ] boong（真软腭、长元音）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [sɔːŋ] xoong、[ɓɔːŋ] boong（长）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 boong、toong、loong"
+  },
+  "op": {
+   "text": "oP",
+   "kirby": "[ɔp]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 thop、bop、chop"
+  },
+  "ot": {
+   "text": "oT",
+   "kirby": "[ɔt]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 lot、chot、mot"
+  },
+  "oăc": {
+   "text": "wĂK",
+   "kirby": "[wăk]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 ngoăc、hoăc",
+   "zero": "wĂK"
+  },
+  "oăm": {
+   "text": "wĂm",
+   "kirby": "[wăm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 hoăm、khoăm、oăm",
+   "zero": "wĂm"
+  },
+  "oăn": {
+   "text": "wĂn",
+   "kirby": "[wăn]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 khoăn、choăn、xoăn",
+   "zero": "wĂn"
+  },
+  "oăng": {
+   "text": "wĂng",
+   "kirby": "[wăŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 ngoăng、hoăng、khoăng",
+   "zero": "wĂng"
+  },
+  "oăt": {
+   "text": "wĂT",
+   "kirby": "[wăt]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 ngoăt、choăt、hoăt",
+   "zero": "wĂT"
+  },
+  "u": {
+   "text": "u",
+   "kirby": "[u]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；词表例词 phu、thu、khu"
+  },
+  "ua": {
+   "text": "uᵉ",
+   "kirby": "[uə]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰuə] thua；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行；词表例词 dua、thua、cua"
+  },
+  "uc": {
+   "text": "uKP",
+   "kirby": "[uk͡p]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 k 变双唇软腭 [ukp] Úc；词表例词 phuc、cuc、muc"
+  },
+  "ui": {
+   "text": "u·i",
+   "kirby": "[uj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 ui、tui、lui"
+  },
+  "um": {
+   "text": "um",
+   "kirby": "[um]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 trum、dum、rum"
+  },
+  "un": {
+   "text": "u·n",
+   "kirby": "[un]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 bun、vun、nhun"
+  },
+  "ung": {
+   "text": "uNGM",
+   "kirby": "[uŋ͡m]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 ŋ 变双唇软腭 [uŋ͡m] ung；词表例词 dung、hung、thung"
+  },
+  "up": {
+   "text": "uP",
+   "kirby": "[up]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 nup、mup、bup"
+  },
+  "ut": {
+   "text": "uT",
+   "kirby": "[ut]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 ut、đut、nut"
+  },
+  "uy": {
+   "text": "wi",
+   "kirby": "[wi]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；词表例词 tuy、thuy、uy",
+   "zero": "wi"
+  },
+  "uya": {
+   "text": "wiᵉ",
+   "kirby": "[wiə]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；词表例词 khuya、luya、xuya",
+   "zero": "wiᵉ"
+  },
+  "uych": {
+   "text": "wiCH",
+   "kirby": "[wik̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 huych、uych",
+   "zero": "wiCH"
+  },
+  "uyn": {
+   "text": "win",
+   "kirby": "[win]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 tuyn",
+   "zero": "win"
+  },
+  "uynh": {
+   "text": "wiNH",
+   "kirby": "[wiŋ̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 huynh、khuynh、luynh",
+   "zero": "wiNH"
+  },
+  "uyt": {
+   "text": "wiT",
+   "kirby": "[wit]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 xuyt、buyt、huyt",
+   "zero": "wiT"
+  },
+  "uyu": {
+   "text": "wi·u",
+   "kirby": "[wiw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 khuyu、nguyu",
+   "zero": "wi·u"
+  },
+  "uyên": {
+   "text": "wiᵉn",
+   "kirby": "[wiən]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 chuyên、thuyên、nguyên",
+   "zero": "wiᵉn"
+  },
+  "uyêt": {
+   "text": "wiᵉT",
+   "kirby": "[wiət]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 huyêt、nguyêt、tuyêt",
+   "zero": "wiᵉT"
+  },
+  "uân": {
+   "text": "wÂn",
+   "kirby": "[wɤ̆n]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 tuân、xuân、luân",
+   "zero": "wÂn"
+  },
+  "uâng": {
+   "text": "wÂng",
+   "kirby": "[wɤ̆ŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 khuâng",
+   "zero": "wÂng"
+  },
+  "uât": {
+   "text": "wÂT",
+   "kirby": "[wɤ̆t]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 thuât、suât、luât",
+   "zero": "wÂT"
+  },
+  "uây": {
+   "text": "wÂi",
+   "kirby": "[wɤ̆j]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 khuây、nguây、uây",
+   "zero": "wÂi"
+  },
+  "uê": {
+   "text": "wE",
+   "kirby": "[we]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；词表例词 huê、thuê、khuê",
+   "zero": "wE"
+  },
+  "uêch": {
+   "text": "wECH",
+   "kirby": "[wek̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 tuêch、chuêch、huêch",
+   "zero": "wECH"
+  },
+  "uênh": {
+   "text": "wENH",
+   "kirby": "[weŋ̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 duênh、huênh、xuênh",
+   "zero": "wENH"
+  },
+  "uôc": {
+   "text": "uᵉK",
+   "kirby": "[uək]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰuə] thua；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 cuôc、tuôc、thuôc"
+  },
+  "uôi": {
+   "text": "uᵉi",
+   "kirby": "[uəj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰuə] thua；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 muôi、nuôi、chuôi"
+  },
+  "uôm": {
+   "text": "uᵉm",
+   "kirby": "[uəm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰuə] thua；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 uôm、chuôm、buôm"
+  },
+  "uôn": {
+   "text": "uᵉn",
+   "kirby": "[uən]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰuə] thua；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 buôn、chuôn、cuôn"
+  },
+  "uông": {
+   "text": "uᵉng",
+   "kirby": "[uəŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰuə] thua；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 uông、chuông、buông"
+  },
+  "uôt": {
+   "text": "uᵉT",
+   "kirby": "[uət]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰuə] thua；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 buôt、ruôt、chuôt"
+  },
+  "uăng": {
+   "text": "wĂng",
+   "kirby": "[wăŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 khuăng",
+   "zero": "wĂng"
+  },
+  "uơ": {
+   "text": "uᵉ",
+   "kirby": "[uə]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰuə] thua；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行；词表例词 thuơ、huơ、khuơ"
+  },
+  "y": {
+   "text": "i",
+   "kirby": "[i]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；词表例词 quy、y、ly"
+  },
+  "ynh": {
+   "text": "iNH",
+   "kirby": "[iŋ̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 quynh"
+  },
+  "yt": {
+   "text": "iT",
+   "kirby": "[it]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 quyt"
+  },
+  "yêm": {
+   "text": "iᵉm",
+   "kirby": "[iəm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 yêm"
+  },
+  "yên": {
+   "text": "iᵉn",
+   "kirby": "[iən]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 yên、quyên"
+  },
+  "yêng": {
+   "text": "iᵉng",
+   "kirby": "[iəŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 yêng"
+  },
+  "yêt": {
+   "text": "iᵉT",
+   "kirby": "[iət]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 yêt、quyêt"
+  },
+  "yêu": {
+   "text": "iᵉu",
+   "kirby": "[iəw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 yêu"
+  },
+  "âc": {
+   "text": "ÂK",
+   "kirby": "[ɤ̆k]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 giâc、âc、bâc"
+  },
+  "âm": {
+   "text": "Âm",
+   "kirby": "[ɤ̆m]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 tâm、câm、bâm"
+  },
+  "ân": {
+   "text": "Ân",
+   "kirby": "[ɤ̆n]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 nhân、thân、ân"
+  },
+  "âng": {
+   "text": "Âng",
+   "kirby": "[ɤ̆ŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 bâng、tâng、câng"
+  },
+  "âp": {
+   "text": "ÂP",
+   "kirby": "[ɤ̆p]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 râp、câp、thâp"
+  },
+  "ât": {
+   "text": "ÂT",
+   "kirby": "[ɤ̆t]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 đât、vât、dât"
+  },
+  "âu": {
+   "text": "Âu",
+   "kirby": "[ɤ̆w]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 đâu、châu、khâu"
+  },
+  "ây": {
+   "text": "Âi",
+   "kirby": "[ɤ̆j]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 nây、bây、ây"
+  },
+  "ê": {
+   "text": "E",
+   "kirby": "[e]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；词表例词 lê、kê、tê"
+  },
+  "êch": {
+   "text": "ECH",
+   "kirby": "[ek̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 phêch、bêch、rêch"
+  },
+  "êm": {
+   "text": "Em",
+   "kirby": "[em]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 đêm、thêm、chêm"
+  },
+  "ên": {
+   "text": "En",
+   "kirby": "[en]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 lên、đên、trên"
+  },
+  "ênh": {
+   "text": "ENH",
+   "kirby": "[eŋ̟]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 lênh、mênh、bênh"
+  },
+  "êp": {
+   "text": "EP",
+   "kirby": "[ep]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 nêp、bêp、kêp"
+  },
+  "êt": {
+   "text": "ET",
+   "kirby": "[et]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 kêt、têt、bêt"
+  },
+  "êu": {
+   "text": "Eu",
+   "kirby": "[ew]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 bêu、lêu、thêu"
+  },
+  "ô": {
+   "text": "O",
+   "kirby": "[o]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [to] tô；词表例词 lô、mô、đô"
+  },
+  "ôc": {
+   "text": "OKP",
+   "kirby": "[ok͡p]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [to] tô；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 k 变双唇软腭 [ukp] Úc；词表例词 đôc、quôc、côc"
+  },
+  "ôi": {
+   "text": "Oi",
+   "kirby": "[oj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [to] tô；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 khôi、ngôi、côi"
+  },
+  "ôm": {
+   "text": "Om",
+   "kirby": "[om]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [to] tô；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 trôm、tôm、gôm"
+  },
+  "ôn": {
+   "text": "On",
+   "kirby": "[on]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [to] tô；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 ngôn、ôn、đôn"
+  },
+  "ông": {
+   "text": "ONGM",
+   "kirby": "[oŋ͡m]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [to] tô；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 ŋ 变双唇软腭 [uŋ͡m] ung；词表例词 mông、bông、dông"
+  },
+  "ôp": {
+   "text": "OP",
+   "kirby": "[op]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [to] tô；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 xôp、bôp、chôp"
+  },
+  "ôt": {
+   "text": "OT",
+   "kirby": "[ot]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [to] tô；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 côt、bôt、lôt"
+  },
+  "ăc": {
+   "text": "ĂK",
+   "kirby": "[ăk]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 tăc、ăc、chăc"
+  },
+  "ăm": {
+   "text": "Ăm",
+   "kirby": "[ăm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 ăm、năm、chăm"
+  },
+  "ăn": {
+   "text": "Ăn",
+   "kirby": "[ăn]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 văn、lăn、ăn"
+  },
+  "ăng": {
+   "text": "Ăng",
+   "kirby": "[ăŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 hăng、tăng、đăng"
+  },
+  "ăp": {
+   "text": "ĂP",
+   "kirby": "[ăp]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 ăp、căp、băp"
+  },
+  "ăt": {
+   "text": "ĂT",
+   "kirby": "[ăt]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tăm] tắm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 đăt、văt、ăt"
+  },
+  "ơ": {
+   "text": "e",
+   "kirby": "[ɤ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ] tờ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄜ e 行北京音 ɤ，同一音标；词表例词 trơ、xơ、bơ"
+  },
+  "ơi": {
+   "text": "e·i",
+   "kirby": "[ɤj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ] tờ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄜ e 行北京音 ɤ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 đơi、tơi、chơi"
+  },
+  "ơm": {
+   "text": "em",
+   "kirby": "[ɤm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ] tờ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄜ e 行北京音 ɤ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 sơm、bơm、xơm"
+  },
+  "ơn": {
+   "text": "e·n",
+   "kirby": "[ɤn]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ] tờ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄜ e 行北京音 ɤ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 lơn、trơn、nhơn"
+  },
+  "ơp": {
+   "text": "eP",
+   "kirby": "[ɤp]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ] tờ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄜ e 行北京音 ɤ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 khơp、hơp、bơp"
+  },
+  "ơt": {
+   "text": "eT",
+   "kirby": "[ɤt]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ] tờ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄜ e 行北京音 ɤ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 bơt、hơt、rơt"
+  },
+  "ư": {
+   "text": "Ư",
+   "kirby": "[ɯ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；词表例词 nư、ngư、thư"
+  },
+  "ưa": {
+   "text": "Ưᵉ",
+   "kirby": "[ɯə]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；词表例词 mưa、bưa、thưa"
+  },
+  "ưc": {
+   "text": "ƯK",
+   "kirby": "[ɯk]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 lưc、tưc、ưc"
+  },
+  "ưi": {
+   "text": "Ưi",
+   "kirby": "[ɯj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 cưi、chưi、gưi"
+  },
+  "ưm": {
+   "text": "Ưm",
+   "kirby": "[ɯm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 hưm"
+  },
+  "ưn": {
+   "text": "Ưn",
+   "kirby": "[ɯn]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 chưn、sưn"
+  },
+  "ưng": {
+   "text": "Ưng",
+   "kirby": "[ɯŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 chưng、mưng、đưng"
+  },
+  "ưt": {
+   "text": "ƯT",
+   "kirby": "[ɯt]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 đưt、bưt、rưt"
+  },
+  "ưu": {
+   "text": "Ưu",
+   "kirby": "[ɯw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 hưu、mưu、ưu"
+  },
+  "ươc": {
+   "text": "ƯᵉK",
+   "kirby": "[ɯək]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 ươc、phươc、tươc"
+  },
+  "ươi": {
+   "text": "Ưᵉi",
+   "kirby": "[ɯəj]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 cươi、ngươi、tươi"
+  },
+  "ươm": {
+   "text": "Ưᵉm",
+   "kirby": "[ɯəm]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 bươm、chươm、cươm"
+  },
+  "ươn": {
+   "text": "Ưᵉn",
+   "kirby": "[ɯən]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 lươn、bươn、sươn"
+  },
+  "ương": {
+   "text": "Ưᵉng",
+   "kirby": "[ɯəŋ]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 nương、tương、dương"
+  },
+  "ươp": {
+   "text": "ƯᵉP",
+   "kirby": "[ɯəp]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 cươp、bươp、chươp"
+  },
+  "ươt": {
+   "text": "ƯᵉT",
+   "kirby": "[ɯət]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 ươt、lươt、trươt"
+  },
+  "ươu": {
+   "text": "Ưᵉu",
+   "kirby": "[ɯəw]",
+   "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 phươu、bươu、rươu"
+  }
+ },
+ "tones": {
+  "ngang": {
+   "digits": "44",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），A1 ma 鬼；vPhon rules.py 第157行写 33，两处不一致"
+  },
+  "huyen": {
+   "digits": "32",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），A2 mà"
+  },
+  "sac": {
+   "digits": "24",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），B1 má"
+  },
+  "sac_stop": {
+   "digits": "45",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），D1 mát"
+  },
+  "nang": {
+   "digits": "22",
+   "text": "尾巴嗓子挤紧",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），B2 mạ；嗓子挤紧见第387页（开头正常、后段强烈紧喉）；vPhon rules.py 第157行写 21 带紧喉，两处不一致"
+  },
+  "nang_stop": {
+   "digits": "21",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），D2 mạt；第387页：嗓音正常，不紧喉"
+  },
+  "hoi": {
+   "digits": "312",
+   "text": "口语常只降不升",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），C1 mả；第386页：口语里通常读成低降"
+  },
+  "nga": {
+   "digits": "325",
+   "text": "中间嗓子卡一下",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），C2 mã；第387页：中段被强烈的声门闭塞打断"
+  }
+ },
+ "marks": {
+  "'": {
+   "say": "元音前先把嗓子关一下再张开发音",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：声门塞音 [ʔ]，例 [ʔa] à"
+  },
+  "B": {
+   "say": "双唇闭住、声带先振动，喉头往下一沉再张嘴（带声的 b，不是拼音 b）",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：浊塞音通常读成内爆音 [ɓ]"
+  },
+  "D": {
+   "say": "舌尖顶上齿龈、声带先振动，喉头往下一沉再放开（带声的 d，不是拼音 d）",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：浊塞音通常读成内爆音 [ɗ]，舌尖对齿龈"
+  },
+  "V": {
+   "say": "上齿轻贴下唇，照发 f 的口形再让声带振动",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：唇齿擦音 f 与 v 成对（v 带声）"
+  },
+  "Z": {
+   "say": "照发 s 的口形再让声带振动",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：齿龈擦音 s 与 z 成对（z 带声）"
+  },
+  "NY": {
+   "say": "舌面前部整片贴住上齿龈后面发鼻音，一口气带到后面的元音",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：硬腭鼻音 [ɲ]，舌面接触齿龈或齿龈后区"
+  },
+  "G": {
+   "say": "照发北京音 h 的口形（舌根靠近软腭摩擦）再让声带振动",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：软腭擦音 x 与 ɣ 成对；台大 Lin & Chung 2013 注音拼音音标对照表 ㄏ 北京音 = x"
+  },
+  "H": {
+   "say": "舌根不抬，只从喉咙里呼气（台湾国语 ㄏ 的读法）",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：声门擦音 [h]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄏ 台湾音 = h"
+  },
+  "E": {
+   "say": "拼音 ei 开头那个音，停住不滑向 i",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384–385页元音 [e]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄟ ei 行 = ei"
+  },
+  "O": {
+   "say": "拼音 ou 开头那个音，嘴唇圆着停住不滑向 u",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384–385页元音 [o]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行 = ou"
+  },
+  "A": {
+   "say": "拼音 an、ai 里的 a（嘴大开、舌头靠前），不是单念 a 那样靠后",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384–385页元音 [a]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an = an、ㄚ 单念 = ɑ"
+  },
+  "Ă": {
+   "say": "同 A，但发得短促",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页：a 在闭音节分长短，第385页 [tăm] tắm"
+  },
+  "Ư": {
+   "say": "舌头放在发 u 的位置，嘴唇却像发 i 一样扁着不圆",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页元音图：ɯ 为后高元音、不圆唇"
+  },
+  "Â": {
+   "say": "同拼音 e（ㄜ）的音，但发得短促",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页：ɤ 分长短 [ɤ ɤ̆]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄜ e 北京音 = ɤ"
+  },
+  "ᵉ": {
+   "say": "前一个元音后面轻轻带出一个拼音 en 里的 e（不带 n）",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页：三个下降双元音 iə ɯə uə；台大 Lin & Chung 2013 注音拼音音标对照表 ㄣ en = ən"
+  },
+  "êê": {
+   "say": "拼音 ê 拖长",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页：ɛ 有少数长短对立 [sɛːŋ] xẻng"
+  },
+  "oo": {
+   "say": "拼音 o 拖长，结尾舌根照常顶住，嘴唇不闭",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页：ɔ 有少数长短对立 [sɔːŋ] xoong"
+  },
+  "P": {
+   "say": "双唇闭上就停住，不张开、不出气",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻"
+  },
+  "T": {
+   "say": "舌尖顶上齿龈就停住，不放开、不出气",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻，t 在齿龈"
+  },
+  "K": {
+   "say": "舌根顶住软腭就停住，不放开、不出气",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻"
+  },
+  "NH": {
+   "say": "收 ng，但舌头接触点比 ng 靠前（舌尖不碰齿龈），前面的元音变短",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：i e ɛ 后的 ŋ 读前软腭 [ŋ̟]，元音变短变央"
+  },
+  "CH": {
+   "say": "同 K，但舌头接触点靠前（舌尖不碰齿龈），前面的元音变短",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：i e ɛ 后的 k 读前软腭 [k̟]，元音变短变央"
+  },
+  "NGM": {
+   "say": "收 ng 的同时双唇闭上，腮帮子可能鼓一下",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：u o ɔ 后的 ŋ 读双唇软腭 [ŋ͡m]，有时鼓腮"
+  },
+  "KP": {
+   "say": "舌根顶住软腭的同时双唇闭上就停住，不放开",
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：u o ɔ 后的 k 读双唇软腭 [k͡p]，有时鼓腮"
+  },
+  "·": {
+   "say": "点两边分开读，别按拼音韵母连起来读",
+   "src": "台大 Lin & Chung 2013 注音拼音音标对照表：拼音 un=ʊn、en=ən、eng=əŋ、ei=ei、ui=uei、iu=iou、ie=iɛ、uo=ʊɔ、ou=ou、ong=ɔŋ、ao=ɑu、ang=ɑŋ、ing=iŋ，与越南语不同"
+  }
+ }
+}

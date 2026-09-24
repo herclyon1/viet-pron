@@ -1,0 +1,114 @@
+:root {
+  --bg: #f2f2f7;
+  --card: #ffffff;
+  --text: #000000;
+  --muted: rgba(60, 60, 67, 0.6);
+  --line: rgba(60, 60, 67, 0.18);
+  --accent: #007aff;
+  --err: #ff3b30;
+  --pron: #1c1c1e;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #000000;
+    --card: #1c1c1e;
+    --text: #ffffff;
+    --muted: rgba(235, 235, 245, 0.6);
+    --line: rgba(84, 84, 88, 0.65);
+    --accent: #0a84ff;
+    --err: #ff453a;
+    --pron: #f2f2f7;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #000000;
+  --card: #1c1c1e;
+  --text: #ffffff;
+  --muted: rgba(235, 235, 245, 0.6);
+  --line: rgba(84, 84, 88, 0.65);
+  --accent: #0a84ff;
+  --err: #ff453a;
+  --pron: #f2f2f7;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.4 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: calc(env(safe-area-inset-top) + 16px) calc(env(safe-area-inset-right) + 16px)
+           calc(env(safe-area-inset-bottom) + 24px) calc(env(safe-area-inset-left) + 16px);
+}
+h1 { font-size: 34px; line-height: 41px; font-weight: 700; margin: 8px 0 12px; }
+h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: none; margin: 24px 16px 6px; }
+
+#q {
+  width: 100%;
+  font: inherit;
+  font-size: 20px;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--text);
+  -webkit-appearance: none;
+  appearance: none;
+}
+#q::placeholder { color: var(--muted); }
+
+.status { color: var(--muted); font-size: 15px; margin: 12px 4px 0; }
+
+.phrase {
+  margin-top: 16px;
+  background: var(--card);
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.syls { display: flex; flex-wrap: wrap; gap: 14px 20px; min-width: 0; }
+.syl { display: flex; flex-direction: column; gap: 4px; cursor: pointer; min-width: 0; }
+.vi { font-size: 22px; color: var(--muted); }
+/* The reading line uses its own typeface so it is never read as Vietnamese spelling. */
+.pr {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 22px;
+  color: var(--pron);
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 2px 4px;
+}
+.pr.raw { font-size: 15px; color: var(--muted); }
+.plus { color: var(--muted); }
+.tone { display: inline-flex; align-items: center; gap: 2px; margin-left: 2px; }
+.digits { font-size: 14px; position: relative; top: -0.6em; }
+.tonetext { font-size: 14px; color: var(--muted); }
+.curve { width: 20px; height: 15px; }
+.curve polyline { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.err { font-family: -apple-system, sans-serif; font-size: 15px; color: var(--err); }
+.src { font-size: 13px; color: var(--muted); max-width: 70vw; }
+
+.play {
+  flex: none;
+  width: 44px; height: 44px;
+  border: 0; border-radius: 22px;
+  background: var(--accent); color: #fff;
+  font-size: 16px;
+}
+
+#marks ul { list-style: none; margin: 0; padding: 0; background: var(--card); border-radius: 10px; }
+#marks li { display: flex; gap: 12px; align-items: center; padding: 11px 16px; }
+#marks li + li { border-top: 0.5px solid var(--line); }
+.mark { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 24px; min-width: 32px; text-align: center; }
+.markbody { flex: 1; min-width: 0; }
+.credit { margin: 32px 4px 0; font-size: 13px; color: var(--muted); }
+.mk { color: var(--accent); font-weight: 600; }
