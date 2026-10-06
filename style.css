@@ -92,6 +92,7 @@ h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: non
 .tone { display: inline-flex; align-items: center; gap: 2px; margin-left: 2px; }
 .digits { font-size: 14px; position: relative; top: -0.6em; }
 .tonetext { font-size: 14px; color: var(--muted); }
+.tonelike { font-size: 14px; color: var(--accent); }
 .curve { width: 20px; height: 15px; }
 .curve polyline { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .err { font-family: -apple-system, sans-serif; font-size: 15px; color: var(--err); }
@@ -110,5 +111,6 @@ h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: non
 #marks li + li { border-top: 0.5px solid var(--line); }
 .mark { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 24px; min-width: 32px; text-align: center; }
 .markbody { flex: 1; min-width: 0; }
+.like { font-weight: 600; margin-bottom: 2px; }
 .credit { margin: 32px 4px 0; font-size: 13px; color: var(--muted); }
 .mk { color: var(--accent); font-weight: 600; }

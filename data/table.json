@@ -1005,64 +1005,92 @@
  "tones": {
   "ngang": {
    "digits": "44",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），A1 ma 鬼；vPhon rules.py 第157行写 33，两处不一致"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），A1 ma 鬼；vPhon rules.py 第157行写 33，两处不一致",
+   "like": "≈一声（低一点）",
+   "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升"
   },
   "huyen": {
    "digits": "32",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），A2 mà"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），A2 mà",
+   "like": "≈半三声（只降）",
+   "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升"
   },
   "sac": {
    "digits": "24",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），B1 má"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），B1 má",
+   "like": "≈二声",
+   "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升"
   },
   "sac_stop": {
    "digits": "45",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），D1 mát"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），D1 mát",
+   "like": "≈二声，短",
+   "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升"
   },
   "nang": {
    "digits": "22",
    "text": "尾巴嗓子挤紧",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），B2 mạ；嗓子挤紧见第387页（开头正常、后段强烈紧喉）；vPhon rules.py 第157行写 21 带紧喉，两处不一致"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），B2 mạ；嗓子挤紧见第387页（开头正常、后段强烈紧喉）；vPhon rules.py 第157行写 21 带紧喉，两处不一致",
+   "like": "≈半三声",
+   "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升"
   },
   "nang_stop": {
    "digits": "21",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），D2 mạt；第387页：嗓音正常，不紧喉"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），D2 mạt；第387页：嗓音正常，不紧喉",
+   "like": "≈半三声，短",
+   "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升"
   },
   "hoi": {
    "digits": "312",
    "text": "口语常只降不升",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），C1 mả；第386页：口语里通常读成低降"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），C1 mả；第386页：口语里通常读成低降",
+   "like": "≈三声",
+   "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升"
   },
   "nga": {
    "digits": "325",
    "text": "中间嗓子卡一下",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），C2 mã；第387页：中段被强烈的声门闭塞打断"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第386页声调表，调号字形按五度量出（tools/measure_tones.py），C2 mã；第387页：中段被强烈的声门闭塞打断",
+   "like": "≈二声",
+   "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升"
   }
  },
  "marks": {
   "'": {
    "say": "元音前先把嗓子关一下再张开发音",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：声门塞音 [ʔ]，例 [ʔa] à"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：声门塞音 [ʔ]，例 [ʔa] à",
+   "like": "英语 uh-oh 中间那一下",
+   "like_src": "维基百科 Help:IPA/English 声门塞音 ʔ 例 uh-oh"
   },
   "B": {
    "say": "双唇闭住、声带先振动，喉头往下一沉再张嘴（带声的 b，不是拼音 b）",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：浊塞音通常读成内爆音 [ɓ]"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：浊塞音通常读成内爆音 [ɓ]",
+   "like": "英语 bee 的 b（近似，英语 b 带声；再加喉头往下沉）",
+   "like_src": "维基百科 Help:IPA/English 浊塞音 b"
   },
   "D": {
    "say": "舌尖顶上齿龈、声带先振动，喉头往下一沉再放开（带声的 d，不是拼音 d）",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：浊塞音通常读成内爆音 [ɗ]，舌尖对齿龈"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：浊塞音通常读成内爆音 [ɗ]，舌尖对齿龈",
+   "like": "英语 day 的 d（近似，英语 d 带声；再加喉头往下沉）",
+   "like_src": "维基百科 Help:IPA/English 浊塞音 d"
   },
   "V": {
    "say": "上齿轻贴下唇，照发 f 的口形再让声带振动",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：唇齿擦音 f 与 v 成对（v 带声）"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：唇齿擦音 f 与 v 成对（v 带声）",
+   "like": "英语 very 的 v",
+   "like_src": "维基百科 Help:IPA/English v 例 vie、leave"
   },
   "Z": {
    "say": "照发 s 的口形再让声带振动",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：齿龈擦音 s 与 z 成对（z 带声）"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表：齿龈擦音 s 与 z 成对（z 带声）",
+   "like": "英语 zoo 的 z",
+   "like_src": "维基百科 Help:IPA/English z 例 zoo、has"
   },
   "NY": {
    "say": "舌面前部整片贴住上齿龈后面发鼻音，一口气带到后面的元音",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：硬腭鼻音 [ɲ]，舌面接触齿龈或齿龈后区"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：硬腭鼻音 [ɲ]，舌面接触齿龈或齿龈后区",
+   "like": "英语 canyon 的 ny，日语「こんにゃく」的「にゃ」",
+   "like_src": "维基百科 Help:IPA/Japanese ɲ 例 こんにゃく，英语对照 canyon"
   },
   "G": {
    "say": "照发北京音 h 的口形（舌根靠近软腭摩擦）再让声带振动",
@@ -1070,7 +1098,9 @@
   },
   "H": {
    "say": "舌根不抬，只从喉咙里呼气（台湾国语 ㄏ 的读法）",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：声门擦音 [h]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄏ 台湾音 = h"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页：声门擦音 [h]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄏ 台湾音 = h",
+   "like": "英语 high 的 h",
+   "like_src": "维基百科 Help:IPA/English h 例 high、ahead"
   },
   "E": {
    "say": "拼音 ei 开头那个音，停住不滑向 i",
@@ -1086,11 +1116,15 @@
   },
   "Ă": {
    "say": "同 A，但发得短促",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页：a 在闭音节分长短，第385页 [tăm] tắm"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页：a 在闭音节分长短，第385页 [tăm] tắm",
+   "like": "A 的短音；长短差别像日语「おじさん」和「おじいさん」",
+   "like_src": "维基百科 Help:IPA/Japanese 长音 ː 例 ojiisan"
   },
   "Ư": {
    "say": "舌头放在发 u 的位置，嘴唇却像发 i 一样扁着不圆",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页元音图：ɯ 为后高元音、不圆唇"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页元音图：ɯ 为后高元音、不圆唇",
+   "like": "日语「うなぎ」的「う」（日语う嘴唇不圆）",
+   "like_src": "维基百科 Help:IPA/Japanese ɯ 例 うなぎ"
   },
   "Â": {
    "say": "同拼音 e（ㄜ）的音，但发得短促",
@@ -1110,15 +1144,21 @@
   },
   "P": {
    "say": "双唇闭上就停住，不张开、不出气",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻",
+   "like": "美式英语 stop 结尾的 p（嘴闭上就停）",
+   "like_src": "维基百科 No audible release：美式英语词尾塞音通常不放开"
   },
   "T": {
    "say": "舌尖顶上齿龈就停住，不放开、不出气",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻，t 在齿龈"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻，t 在齿龈",
+   "like": "美式英语 cat 结尾的 t（舌尖顶住就停）",
+   "like_src": "维基百科 No audible release：美式英语词尾塞音通常不放开"
   },
   "K": {
    "say": "舌根顶住软腭就停住，不放开、不出气",
-   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻"
+   "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻",
+   "like": "美式英语 back 结尾的 k（舌根顶住就停）",
+   "like_src": "维基百科 No audible release：美式英语词尾塞音通常不放开"
   },
   "NH": {
    "say": "收 ng，但舌头接触点比 ng 靠前（舌尖不碰齿龈），前面的元音变短",

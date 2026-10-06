@@ -106,6 +106,8 @@
     tone.appendChild(el('span', 'digits', tn.digits));
     var c = toneCurve(tn.digits);
     if (c) tone.appendChild(c);
+    // the nearest Mandarin tone, for readers who cannot hear the contour (approximate)
+    if (tn.like) tone.appendChild(el('span', 'tonelike', tn.like));
     if (tn.text) tone.appendChild(el('span', 'tonetext', tn.text));
     pr.appendChild(tone);
 
@@ -114,7 +116,7 @@
     src.hidden = true;
     src.appendChild(el('div', null, '声母：' + (ini.src || '缺出处')));
     src.appendChild(el('div', null, '韵母：' + (rh.src || '缺出处')));
-    src.appendChild(el('div', null, '声调：' + (tn.src || '缺出处')));
+    src.appendChild(el('div', null, '声调：' + (tn.src || '缺出处') + (tn.like_src ? '；对照：' + tn.like_src : '')));
     cell.appendChild(src);
     cell.addEventListener('click', function () { src.hidden = !src.hidden; });
     return cell;
@@ -177,8 +179,10 @@
       var li = el('li');
       li.appendChild(el('span', 'mark', m));
       var body = el('div', 'markbody');
+      // the nearest sound the reader already knows: Mandarin, then English, then Japanese (approximate)
+      if (info.like) body.appendChild(el('div', 'like', '像：' + info.like));
       body.appendChild(el('div', 'say', info.say || ''));
-      if (info.src) body.appendChild(el('div', 'src', info.src));
+      if (info.src) body.appendChild(el('div', 'src', info.src + (info.like_src ? '；对照：' + info.like_src : '')));
       li.appendChild(body);
       if (info.audio && VietAudio.available()) {
         li.appendChild(playButton('播放 ' + m, function () { return VietAudio.playSample(info.audio); }));
