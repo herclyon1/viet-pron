@@ -13,8 +13,6 @@
   var out = document.getElementById('out');
   var status = document.getElementById('status');
   var astatus = document.getElementById('astatus');
-  var marksBox = document.getElementById('marks');
-  var markList = document.getElementById('marklist');
   var table = null;
   var DEBUG = new URL(location.href).searchParams.get('debug') === '1';
 
@@ -61,99 +59,62 @@
     return t[s.toneKey] || t[s.tone] || null;
   }
 
-  function renderSyllable(s, seenMarks) {
-    var cell = el('div', 'syl');
-    cell.appendChild(el('span', 'vi', s.src));
-    var pr = el('span', 'pr');
-    cell.appendChild(pr);
+  // Why a syllable has no reading, or null when it has one.
+  function problem(s) {
+    if (s.error) return ERRORS[s.error] + (s.bad ? '「' + s.bad + '」' : '');
+    var missing = [];
+    if (!(table.initials || {})[s.initial]) missing.push('声母「' + (s.initial || '无') + '」');
+    if (!(table.rhymes || {})[s.rhyme]) missing.push('韵母「' + s.rhyme + '」');
+    if (!lookupTone(s)) missing.push('声调「' + TONE_NAMES[s.tone] + '」');
+    if (missing.length) return '对照表里没有' + missing.join('、');
+    return VietReading.read(s, table) ? null : '对照表里没有这个音节的拼音读法';
+  }
 
-    if (s.error) {
-      cell.classList.add('bad');
-      var msg = ERRORS[s.error] + (s.bad ? '「' + s.bad + '」' : '');
-      pr.appendChild(el('span', 'err', msg));
-      return cell;
-    }
-
+  // One row: Vietnamese spelling, then the pinyin reading with its notes.
+  function renderSyllable(s, r) {
+    var row = el('div', 'syl');
+    row.appendChild(el('span', 'vi', s.src));
+    var rd = el('div', 'rd');
+    row.appendChild(rd);
     if (!table) {
       // Table not loaded: show only the spelling split, clearly marked as such.
-      pr.classList.add('raw');
-      pr.textContent = (s.initial ? s.initial + ' + ' : '') + s.rhyme + ' · ' + TONE_NAMES[s.tone];
-      return cell;
+      rd.appendChild(el('span', 'raw', s.error ? ERRORS[s.error] :
+        (s.initial ? s.initial + ' + ' : '') + s.rhyme + ' · ' + TONE_NAMES[s.tone]));
+      return row;
     }
+    var bad = problem(s);
+    if (bad) { row.classList.add('bad'); rd.appendChild(el('span', 'err', bad)); return row; }
+    var top = el('div', 'top');
+    top.appendChild(el('span', 'py', r.py));
+    if (r.inline) top.appendChild(el('span', 'inl', r.inline));
+    rd.appendChild(top);
+    r.below.forEach(function (n) { rd.appendChild(el('div', 'nb', n)); });
+    return row;
+  }
 
-    var ini = (table.initials || {})[s.initial];
-    var rh = (table.rhymes || {})[s.rhyme];
-    var tn = lookupTone(s);
-    var missing = [];
-    if (!ini) missing.push('声母「' + (s.initial || '无') + '」');
-    if (!rh) missing.push('韵母「' + s.rhyme + '」');
-    if (!tn) missing.push('声调「' + TONE_NAMES[s.tone] + '」');
-    if (missing.length) {
-      cell.classList.add('bad');
-      pr.appendChild(el('span', 'err', '对照表里没有' + missing.join('、')));
-      return cell;
-    }
-
-    // No written initial and the rhyme starts with a glide: the rhyme's zero form
-    // is read without the glottal stop (Kirby 2011 p. 382: oan [wan]).
-    var useZero = s.initial === '' && rh.zero != null;
-    if (ini.text && !useZero) {
-      pr.appendChild(marked('ini', ini.text, seenMarks));
-      pr.appendChild(el('span', 'plus', '+'));
-    }
-    pr.appendChild(marked('rh', useZero ? rh.zero : rh.text, seenMarks));
+  // Expert view: Kirby 2011 IPA, Chao digits with the small curve, and sources.
+  function renderPro(s) {
+    var row = el('div', 'syl');
+    row.appendChild(el('span', 'vi', s.src));
+    var rd = el('div', 'rd');
+    row.appendChild(rd);
+    if (problem(s)) return row;
+    var ini = table.initials[s.initial], rh = table.rhymes[s.rhyme], tn = lookupTone(s);
+    var zero = s.initial === '' && rh.zero != null;
+    var ipa = (zero ? '' : ini.kirby.slice(1, -1)) + rh.kirby.slice(1, -1);
+    var top = el('div', 'top');
+    top.appendChild(el('span', 'ipa', '[' + ipa + ']'));
     var tone = el('span', 'tone');
     tone.appendChild(el('span', 'digits', tn.digits));
     var c = toneCurve(tn.digits);
     if (c) tone.appendChild(c);
-    // the nearest Mandarin tone, for readers who cannot hear the contour (approximate)
-    if (tn.like) tone.appendChild(el('span', 'tonelike', tn.like));
-    if (tn.text) tone.appendChild(el('span', 'tonetext', tn.text));
-    pr.appendChild(tone);
-
-    // Tap a syllable to see where each part's reading comes from.
-    var src = el('div', 'src');
-    src.hidden = true;
-    src.appendChild(el('div', null, '声母：' + (ini.src || '缺出处')));
-    src.appendChild(el('div', null, '韵母：' + (rh.src || '缺出处')));
-    src.appendChild(el('div', null, '声调：' + (tn.src || '缺出处') + (tn.like_src ? '；对照：' + tn.like_src : '')));
-    cell.appendChild(src);
-    cell.addEventListener('click', function () { src.hidden = !src.hidden; });
-    return cell;
-  }
-
-  // Split a reading into plain runs and marks: longest mark first, no overlap,
-  // so NGM wins over NH, KP over K and P, NH / CH over H.
-  var markKeys = null;
-  function markTokens(text) {
-    if (!markKeys) markKeys = Object.keys(table.marks || {}).sort(function (a, b) { return b.length - a.length; });
-    var out = [], plain = '';
-    for (var i = 0; i < text.length;) {
-      var hit = null;
-      for (var k = 0; k < markKeys.length; k++) {
-        if (text.startsWith(markKeys[k], i)) { hit = markKeys[k]; break; }
-      }
-      if (hit) {
-        if (plain) { out.push({ t: plain }); plain = ''; }
-        out.push({ t: hit, mark: true });
-        i += hit.length;
-      } else {
-        plain += text[i++];
-      }
-    }
-    if (plain) out.push({ t: plain });
-    return out;
-  }
-
-  // Reading text with marks set apart; records each mark in seen (first use order).
-  function marked(cls, text, seen) {
-    var span = el('span', cls);
-    markTokens(text || '').forEach(function (tok) {
-      if (!tok.mark) { span.appendChild(document.createTextNode(tok.t)); return; }
-      span.appendChild(el('span', 'mk', tok.t));
-      if (seen.indexOf(tok.t) < 0) seen.push(tok.t);
-    });
-    return span;
+    top.appendChild(tone);
+    if (tn.like) top.appendChild(el('span', 'inl', tn.like + (tn.text ? '，' + tn.text : '')));
+    rd.appendChild(top);
+    rd.appendChild(el('div', 'nb', '声母：' + (ini.src || '缺出处')));
+    rd.appendChild(el('div', 'nb', '韵母：' + (rh.src || '缺出处')));
+    rd.appendChild(el('div', 'nb', '声调：' + (tn.src || '缺出处') + (tn.like_src ? '；对照：' + tn.like_src : '')));
+    return row;
   }
 
   function playButton(label, onPlay) {
@@ -171,42 +132,38 @@
     return b;
   }
 
-  function renderMarks(seen) {
-    markList.textContent = '';
-    marksBox.hidden = !seen.length;
-    seen.forEach(function (m) {
-      var info = table.marks[m];
-      var li = el('li');
-      li.appendChild(el('span', 'mark', m));
-      var body = el('div', 'markbody');
-      // the nearest sound the reader already knows: Mandarin, then English, then Japanese (approximate)
-      if (info.like) body.appendChild(el('div', 'like', '像：' + info.like));
-      body.appendChild(el('div', 'say', info.say || ''));
-      if (info.src) body.appendChild(el('div', 'src', info.src + (info.like_src ? '；对照：' + info.like_src : '')));
-      li.appendChild(body);
-      if (info.audio && VietAudio.available()) {
-        li.appendChild(playButton('播放 ' + m, function () { return VietAudio.playSample(info.audio); }));
-      }
-      markList.appendChild(li);
-    });
-  }
-
   function render() {
     var text = q.value.trim();
     out.textContent = '';
-    var seen = [];
     if (text) {
       var syls = VietParse.splitText(text);
-      var row = el('div', 'phrase');
+      var card = el('div', 'phrase');
+      var head = el('div', 'head');
       if (VietAudio.available()) {
-        row.appendChild(playButton('播放 ' + text, function () { return VietAudio.playText(text); }));
+        head.appendChild(playButton('播放 ' + text, function () { return VietAudio.playText(text); }));
       }
+      if (table) {
+        // the whole input read in one go, for reading it out as a sentence
+        head.appendChild(el('p', 'line', syls.map(function (s) {
+          var r = !problem(s) && VietReading.read(s, table);
+          return r ? r.py : '？';
+        }).join(' ')));
+      }
+      card.appendChild(head);
       var list = el('div', 'syls');
-      syls.forEach(function (s) { list.appendChild(renderSyllable(s, seen)); });
-      row.appendChild(list);
-      out.appendChild(row);
+      var reads = table ? VietReading.readLine(syls, table) : [];
+      syls.forEach(function (s, i) { list.appendChild(renderSyllable(s, reads[i])); });
+      card.appendChild(list);
+      if (table) {
+        var pro = el('details', 'pro');
+        pro.appendChild(el('summary', null, '专业标注（国际音标、五度调值、出处）'));
+        var plist = el('div', 'syls');
+        syls.forEach(function (s) { plist.appendChild(renderPro(s)); });
+        pro.appendChild(plist);
+        card.appendChild(pro);
+      }
+      out.appendChild(card);
     }
-    if (table) renderMarks(seen); else marksBox.hidden = true;
 
     var url = new URL(location.href);
     if (text) url.searchParams.set('q', text); else url.searchParams.delete('q');

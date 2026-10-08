@@ -69,34 +69,36 @@ h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: non
   margin-top: 16px;
   background: var(--card);
   border-radius: 10px;
-  padding: 12px;
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
+  padding: 12px 16px;
 }
-.syls { display: flex; flex-wrap: wrap; gap: 14px 20px; min-width: 0; }
-.syl { display: flex; flex-direction: column; gap: 4px; cursor: pointer; min-width: 0; }
-.vi { font-size: 22px; color: var(--muted); }
-/* The reading line uses its own typeface so it is never read as Vietnamese spelling. */
-.pr {
-  font-family: ui-monospace, "SF Mono", Menlo, monospace;
-  font-size: 22px;
-  color: var(--pron);
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 2px 4px;
+.head { display: flex; gap: 12px; align-items: center; }
+.line { margin: 0; font-size: 22px; line-height: 1.3; min-width: 0; overflow-wrap: anywhere; }
+/* One syllable per row: spelling | reading. Both in the body text colour. */
+.syls {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 16px;
+  margin-top: 8px;
 }
-.pr.raw { font-size: 15px; color: var(--muted); }
-.plus { color: var(--muted); }
-.tone { display: inline-flex; align-items: center; gap: 2px; margin-left: 2px; }
-.digits { font-size: 14px; position: relative; top: -0.6em; }
-.tonetext { font-size: 14px; color: var(--muted); }
-.tonelike { font-size: 14px; color: var(--accent); }
+.syl { display: contents; }
+.syl > * { padding: 8px 0; border-top: 0.5px solid var(--line); min-width: 0; }
+.vi { font-size: 22px; line-height: 28px; }
+.rd { min-width: 0; }
+.top { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 8px; }
+.py { font-size: 22px; line-height: 28px; }
+.inl { font-size: 15px; color: var(--muted); }
+.nb { font-size: 15px; line-height: 20px; color: var(--muted); }
+.raw { font-size: 15px; color: var(--muted); }
+.err { font-size: 15px; color: var(--err); }
+.pro { margin-top: 12px; }
+.pro summary { font-size: 15px; color: var(--muted); padding: 6px 0; cursor: pointer; }
+.pro .vi, .pro .ipa { font-size: 17px; line-height: 24px; }
+.pro .nb { font-size: 13px; line-height: 18px; }
+.ipa { font-family: "Doulos SIL", "Charis SIL", "Times New Roman", serif; }
+.tone { display: inline-flex; align-items: center; gap: 2px; }
+.digits { font-size: 13px; position: relative; top: -0.5em; }
 .curve { width: 20px; height: 15px; }
 .curve polyline { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-.err { font-family: -apple-system, sans-serif; font-size: 15px; color: var(--err); }
-.src { font-size: 13px; color: var(--muted); max-width: 70vw; }
 
 .play {
   flex: none;
@@ -106,11 +108,4 @@ h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: non
   font-size: 16px;
 }
 
-#marks ul { list-style: none; margin: 0; padding: 0; background: var(--card); border-radius: 10px; }
-#marks li { display: flex; gap: 12px; align-items: center; padding: 11px 16px; }
-#marks li + li { border-top: 0.5px solid var(--line); }
-.mark { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 24px; min-width: 32px; text-align: center; }
-.markbody { flex: 1; min-width: 0; }
-.like { font-weight: 600; margin-bottom: 2px; }
 .credit { margin: 32px 4px 0; font-size: 13px; color: var(--muted); }
-.mk { color: var(--accent); font-weight: 600; }
