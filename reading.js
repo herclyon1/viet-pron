@@ -26,7 +26,9 @@
     if (!say || !tn || !tn.mark) return null;
     var out = [], placed = false;
     say.forEach(function (p) {
-      var q = { s: p[0], t: p[1] };
+      // ·e (table) is shown as a plain e with no tone mark: in pinyin an unmarked syllable
+      // is the neutral tone, and a neutral e is [ə] (的 de)
+      var q = { s: p[0], t: p[1].replace(/^·/, '') };
       if (p[2] && !placed) {
         placed = true;
         // ッ already keeps the vowel apart from what follows, so a ' before it goes
