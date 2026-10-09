@@ -81,12 +81,43 @@
         w.appendChild(b);
       } else {
         var n = el('span', 'p-' + p.s, p.t);
-        // a kana has no tone mark of its own: the pinyin mark is drawn over it
-        if (p.mark) { n.classList.add('tm'); if (p.hi) n.classList.add('tm-hi'); n.setAttribute('data-t', MARKS[p.mark - 1]); }
+        // a kana (or ê, whose hat a combining mark would sit on) has no tone mark of its own:
+        // the pinyin mark is drawn over it by placeMarks() once the row is on the page
+        if (p.mark) {
+          n.classList.add('tm');
+          n.setAttribute('data-t', p.mark);
+          n.appendChild(el('i', 'bl'));
+        }
         w.appendChild(n);
       }
     });
     return w;
+  }
+
+  // Tone marks over kana / ê, drawn as small lines (ˉ ˊ ˇ ˋ) just above the letter's own
+  // ink, which is measured with canvas measureText (actualBoundingBoxAscent, MDN TextMetrics),
+  // so the gap is the same whatever font the phone uses.
+  var MARK_PATH = ['M0 50H100', 'M15 95L85 5', 'M0 5L50 95L100 5', 'M15 5L85 95'];
+  var measure = document.createElement('canvas').getContext('2d');
+  function placeMarks(root) {
+    root.querySelectorAll('.tm').forEach(function (t) {
+      var old = t.querySelector('.mk'); if (old) old.remove();
+      var cs = getComputedStyle(t), fs = parseFloat(cs.fontSize);
+      measure.font = cs.fontStyle + ' ' + cs.fontWeight + ' ' + cs.fontSize + ' ' + cs.fontFamily;
+      var ink = measure.measureText(t.firstChild.nodeValue).actualBoundingBoxAscent;
+      var base = t.querySelector('.bl').getBoundingClientRect().top - t.getBoundingClientRect().top;
+      var h = 0.17 * fs, gap = 0.2 * fs;
+      var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      svg.setAttribute('class', 'mk');
+      svg.setAttribute('viewBox', '-10 -10 120 120');
+      svg.setAttribute('preserveAspectRatio', 'none');
+      svg.style.height = h + 'px';
+      svg.style.top = (base - ink - gap - h) + 'px';
+      var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', MARK_PATH[t.getAttribute('data-t') - 1]);
+      svg.appendChild(path);
+      t.appendChild(svg);
+    });
   }
 
   // One row: Vietnamese spelling, then its reading in pieces.
@@ -181,6 +212,8 @@
         card.appendChild(pro);
       }
       out.appendChild(card);
+      placeMarks(card);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { placeMarks(card); });
     }
 
     var url = new URL(location.href);

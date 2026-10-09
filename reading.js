@@ -24,7 +24,7 @@
     var say = (t.say || {})[s.initial + '|' + s.rhyme];
     var tn = (t.tones || {})[s.toneKey] || (t.tones || {})[s.tone];
     if (!say || !tn || !tn.mark) return null;
-    var out = [], placed = false;
+    var out = [], placed = false, catchAt = -1;
     say.forEach(function (p) {
       // ·e (table) is shown as a plain e with no tone mark: in pinyin an unmarked syllable
       // is the neutral tone, and a neutral e is [ə] (的 de)
@@ -37,11 +37,14 @@
         var m = (q.s === 'py' || q.s === 'en') && !/ê/.test(q.t) && markLetter(q.t, tn.mark);
         if (m) q.t = m; else { q.mark = tn.mark; if (/ê/.test(q.t)) q.hi = true; }
         out.push(q);
-        if (tn.catch === 'mid') out.push({ s: 'ja', t: 'ッ' });
+        if (tn.catch === 'mid') catchAt = out.length;
         return;
       }
       out.push(q);
+      // the vowel's long mark ー stays with the vowel; ngã's catch comes after it
+      if (catchAt === out.length - 1 && q.t === 'ー') catchAt = out.length;
     });
+    if (catchAt >= 0) out.splice(catchAt, 0, { s: 'ja', t: 'ッ' });
     if (!placed) return null;
     if (tn.catch === 'end') out.push({ s: 'ja', t: 'ッ' });
     return { say: out, text: toText(out) };
