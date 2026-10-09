@@ -70,7 +70,26 @@
     return VietReading.read(s, table) ? null : '对照表里没有这个音节的拼音读法';
   }
 
-  // One row: Vietnamese spelling, then the pinyin reading with its notes.
+  // The pieces of one syllable, each styled by the script it is read in (see the legend).
+  var MARKS = ['ˉ', 'ˊ', 'ˇ', 'ˋ'];
+  function sayNode(pieces) {
+    var w = el('span', 'say');
+    pieces.forEach(function (p) {
+      if (p.s === 'both') {
+        var b = el('span', 'p-both');
+        p.t.split('|').forEach(function (x) { b.appendChild(el('span', null, x)); });
+        w.appendChild(b);
+      } else {
+        var n = el('span', 'p-' + p.s, p.t);
+        // a kana has no tone mark of its own: the pinyin mark is drawn over it
+        if (p.mark) { n.classList.add('tm'); n.setAttribute('data-t', MARKS[p.mark - 1]); }
+        w.appendChild(n);
+      }
+    });
+    return w;
+  }
+
+  // One row: Vietnamese spelling, then its reading in pieces.
   function renderSyllable(s, r) {
     var row = el('div', 'syl');
     row.appendChild(el('span', 'vi', s.src));
@@ -84,11 +103,7 @@
     }
     var bad = problem(s);
     if (bad) { row.classList.add('bad'); rd.appendChild(el('span', 'err', bad)); return row; }
-    var top = el('div', 'top');
-    top.appendChild(el('span', 'py', r.py));
-    if (r.inline) top.appendChild(el('span', 'inl', r.inline));
-    rd.appendChild(top);
-    r.below.forEach(function (n) { rd.appendChild(el('div', 'nb', n)); });
+    rd.appendChild(sayNode(r.say));
     return row;
   }
 
@@ -144,10 +159,13 @@
       }
       if (table) {
         // the whole input read in one go, for reading it out as a sentence
-        head.appendChild(el('p', 'line', syls.map(function (s) {
+        var line = el('p', 'line');
+        syls.forEach(function (s, i) {
           var r = !problem(s) && VietReading.read(s, table);
-          return r ? r.py : '？';
-        }).join(' ')));
+          if (i) line.appendChild(document.createTextNode(' '));
+          line.appendChild(r ? sayNode(r.say) : document.createTextNode('？'));
+        });
+        head.appendChild(line);
       }
       card.appendChild(head);
       var list = el('div', 'syls');

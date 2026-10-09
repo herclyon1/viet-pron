@@ -7,6 +7,8 @@
   --accent: #007aff;
   --err: #ff3b30;
   --pron: #1c1c1e;
+  --en: #007aff;
+  --vn: #c93400;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
@@ -19,6 +21,8 @@
     --accent: #0a84ff;
     --err: #ff453a;
     --pron: #f2f2f7;
+    --en: #0a84ff;
+    --vn: #ff9f0a;
   }
 }
 :root[data-theme="dark"] {
@@ -30,6 +34,8 @@
   --accent: #0a84ff;
   --err: #ff453a;
   --pron: #f2f2f7;
+  --en: #0a84ff;
+  --vn: #ff9f0a;
 }
 
 * { box-sizing: border-box; }
@@ -86,6 +92,19 @@ h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: non
 .rd { min-width: 0; }
 .top { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 8px; }
 .py { font-size: 22px; line-height: 28px; }
+/* Reading pieces: black = pinyin, blue = English, kana = Japanese, orange = the Vietnamese
+   letter (no match in the three), small kana = its consonant only, stacked = said at once. */
+.say { font-size: 22px; line-height: 30px; color: var(--pron); white-space: nowrap; }
+.p-en { color: var(--en); }
+.p-vn { color: var(--vn); font-weight: 600; }
+.p-small { font-size: 0.75em; }
+.tm { position: relative; display: inline-block; }
+.tm::after { content: attr(data-t); position: absolute; left: 0; right: 0; top: -0.3em;
+  text-align: center; line-height: 1; }
+.p-both { display: inline-flex; flex-direction: column; vertical-align: middle;
+  font-size: 0.55em; line-height: 1; text-align: center; }
+.legend { margin: 8px 0 0; font-size: 15px; line-height: 22px; color: var(--muted); }
+.legend .say { font-size: 15px; line-height: 22px; }
 .inl { font-size: 15px; color: var(--muted); }
 .nb { font-size: 15px; line-height: 20px; color: var(--muted); }
 .raw { font-size: 15px; color: var(--muted); }
