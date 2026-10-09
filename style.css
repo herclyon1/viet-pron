@@ -99,7 +99,7 @@ h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: non
 .p-vn { color: var(--vn); font-weight: 600; }
 .p-small { font-size: 0.75em; }
 .tm { position: relative; display: inline-block; }
-.tm::after { content: attr(data-t); position: absolute; left: 0; right: 0; top: -0.3em;
+.tm::after { content: attr(data-t); position: absolute; left: 0; right: 0; top: -0.2em;
   text-align: center; line-height: 1; }
 .p-both { display: inline-flex; flex-direction: column; vertical-align: middle;
   font-size: 0.55em; line-height: 1; text-align: center; }
