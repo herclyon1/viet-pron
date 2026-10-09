@@ -101,6 +101,7 @@ h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: non
 .tm { position: relative; display: inline-block; }
 .tm::after { content: attr(data-t); position: absolute; left: 0; right: 0; top: -0.2em;
   text-align: center; line-height: 1; }
+.tm-hi::after { top: -0.36em; }
 .p-both { display: inline-flex; flex-direction: column; vertical-align: middle;
   font-size: 0.55em; line-height: 1; text-align: center; }
 .legend { margin: 8px 0 0; font-size: 15px; line-height: 22px; color: var(--muted); }

@@ -29,8 +29,11 @@
       var q = { s: p[0], t: p[1] };
       if (p[2] && !placed) {
         placed = true;
-        var m = (q.s === 'py' || q.s === 'en') && markLetter(q.t, tn.mark);
-        if (m) q.t = m; else q.mark = tn.mark;
+        // ッ already keeps the vowel apart from what follows, so a ' before it goes
+        if (tn.catch === 'mid') q.t = q.t.replace(/'$/, '');
+        // ê with a mark on its hat reads like ễ: the mark is drawn above the hat instead
+        var m = (q.s === 'py' || q.s === 'en') && !/ê/.test(q.t) && markLetter(q.t, tn.mark);
+        if (m) q.t = m; else { q.mark = tn.mark; if (/ê/.test(q.t)) q.hi = true; }
         out.push(q);
         if (tn.catch === 'mid') out.push({ s: 'ja', t: 'ッ' });
         return;

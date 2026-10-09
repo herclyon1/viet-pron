@@ -82,7 +82,7 @@
       } else {
         var n = el('span', 'p-' + p.s, p.t);
         // a kana has no tone mark of its own: the pinyin mark is drawn over it
-        if (p.mark) { n.classList.add('tm'); n.setAttribute('data-t', MARKS[p.mark - 1]); }
+        if (p.mark) { n.classList.add('tm'); if (p.hi) n.classList.add('tm-hi'); n.setAttribute('data-t', MARKS[p.mark - 1]); }
         w.appendChild(n);
       }
     });
