@@ -16,8 +16,8 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ɓa] ba；普通话没有这个音",
    "py": "b",
    "py_i": "b",
-   "note": "b 带声（像英语 bee 的 b）",
-   "note_i": "b 带声（像英语 bee 的 b）"
+   "note": "b 像日语浊音「ば」、英语 bee 的 b",
+   "note_i": "b 像日语浊音「ば」、英语 bee 的 b"
   },
   "c": {
    "text": "g",
@@ -52,8 +52,8 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [tɕa] cha；台大 Lin & Chung 2013 注音拼音音标对照表 ㄐ j = tɕ 行，同一音标",
    "py": "zh",
    "py_i": "j",
-   "note": "",
-   "note_i": ""
+   "note": "zh 不卷舌，像日语「ちゃ」的 ch",
+   "note_i": "zh 不卷舌，像日语「ちゃ」的 ch"
   },
   "tr": {
    "text": "j",
@@ -61,8 +61,8 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页正文：河内 tr 与 ch 完全合并为 [tɕ]；台大 Lin & Chung 2013 注音拼音音标对照表 ㄐ j = tɕ 行，同一音标",
    "py": "zh",
    "py_i": "j",
-   "note": "",
-   "note_i": ""
+   "note": "zh 不卷舌，像日语「ちゃ」的 ch",
+   "note_i": "zh 不卷舌，像日语「ちゃ」的 ch"
   },
   "d": {
    "text": "Z",
@@ -70,8 +70,8 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [za] da；普通话没有这个音",
    "py": "z",
    "py_i": "z",
-   "note": "z 像英语 zoo 的 z",
-   "note_i": "z 像英语 zoo 的 z，i 照常读「衣」"
+   "note": "z 像英语 zoo 的 z（日语「ざ」的 z）",
+   "note_i": "z 像英语 zoo 的 z（日语「ざ」的 z），i 照常读「衣」"
   },
   "gi": {
    "text": "Z",
@@ -79,8 +79,8 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第384–385页 [zup] giúp、[zɛw] gieo；普通话没有这个音",
    "py": "z",
    "py_i": "z",
-   "note": "z 像英语 zoo 的 z",
-   "note_i": "z 像英语 zoo 的 z，i 照常读「衣」"
+   "note": "z 像英语 zoo 的 z（日语「ざ」的 z）",
+   "note_i": "z 像英语 zoo 的 z（日语「ざ」的 z），i 照常读「衣」"
   },
   "r": {
    "text": "Z",
@@ -88,8 +88,8 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第385页 [zăw] rau、[zɤ̆w] râu；第382页正文：r 多数人读 [z]；普通话没有这个音",
    "py": "z",
    "py_i": "z",
-   "note": "z 像英语 zoo 的 z",
-   "note_i": "z 像英语 zoo 的 z，i 照常读「衣」"
+   "note": "z 像英语 zoo 的 z（日语「ざ」的 z）",
+   "note_i": "z 像英语 zoo 的 z（日语「ざ」的 z），i 照常读「衣」"
   },
   "đ": {
    "text": "D",
@@ -97,8 +97,8 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ɗa] đa；普通话没有这个音",
    "py": "d",
    "py_i": "d",
-   "note": "d 带声（像英语 day 的 d）",
-   "note_i": "d 带声（像英语 day 的 d）"
+   "note": "d 像日语浊音「だ」、英语 day 的 d",
+   "note_i": "d 像日语浊音「だ」、英语 day 的 d"
   },
   "g": {
    "text": "G",
@@ -106,8 +106,8 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第382页声母表，例词 [ɣa] gà；普通话没有这个音",
    "py": "g",
    "py_i": "g",
-   "note": "g 带声、轻轻擦过去，舌根不顶死",
-   "note_i": "g 带声、轻轻擦过去，舌根不顶死"
+   "note": "g 软着发，别顶死：像发 h 时喉咙同时出声，有点漱口「咕噜」的感觉",
+   "note_i": "g 软着发，别顶死：像发 h 时喉咙同时出声，有点漱口「咕噜」的感觉"
   },
   "gh": {
    "text": "G",
@@ -115,8 +115,8 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第9–10行 g = gh = ɣ；Kirby 2011《国际语音学会会刊》41(3) 第382页 [ɣa] gà；普通话没有这个音",
    "py": "g",
    "py_i": "g",
-   "note": "g 带声、轻轻擦过去，舌根不顶死",
-   "note_i": "g 带声、轻轻擦过去，舌根不顶死"
+   "note": "g 软着发，别顶死：像发 h 时喉咙同时出声，有点漱口「咕噜」的感觉",
+   "note_i": "g 软着发，别顶死：像发 h 时喉咙同时出声，有点漱口「咕噜」的感觉"
   },
   "h": {
    "text": "H",
@@ -273,7 +273,7 @@
    "py0": "ak",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "ach": {
    "text": "êCH",
@@ -281,9 +281,9 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 [sɛk̟] sách；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 ach、mach、khach",
    "py": "ek",
    "py0": "ek",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "ai": {
    "text": "Ai",
@@ -331,7 +331,7 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 [kɛŋ̟] canh、第385页 [sɛŋ̟] xanh；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 khanh、anh、danh",
    "py": "eng",
    "py0": "eng",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": ""
   },
@@ -353,7 +353,7 @@
    "py0": "ap",
    "note": "",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "at": {
    "text": "AT",
@@ -363,7 +363,7 @@
    "py0": "at",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "au": {
    "text": "Ău",
@@ -391,7 +391,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；词表例词 que、xe、de",
    "py": "e",
    "py0": "e",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": ""
   },
@@ -401,9 +401,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 bec、vec、ec",
    "py": "ek",
    "py0": "ek",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "em": {
    "text": "êm",
@@ -411,7 +411,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 em、ghem、khem",
    "py": "em",
    "py0": "em",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": ""
   },
@@ -421,7 +421,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 men、chen、đen",
    "py": "en",
    "py0": "en",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": ""
   },
@@ -431,7 +431,7 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 [sɛːŋ] xẻng（真软腭、长元音）；Kirby 2011《国际语音学会会刊》41(3) 第383–384页 [sɛːŋ] xẻng（长）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 beng、pheng、meng",
    "py": "eng",
    "py0": "eng",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": ""
   },
@@ -441,7 +441,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 treo、beo、theo",
    "py": "eo",
    "py0": "eo",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": ""
   },
@@ -451,9 +451,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 nep、kep、ep",
    "py": "ep",
    "py0": "ep",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "et": {
    "text": "êT",
@@ -461,9 +461,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 vet、chet、tet",
    "py": "et",
    "py0": "et",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "i": {
    "text": "i",
@@ -493,7 +493,7 @@
    "py0": "yik",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "im": {
    "text": "im",
@@ -543,7 +543,7 @@
    "py0": "yip",
    "note": "",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "it": {
    "text": "iT",
@@ -553,15 +553,15 @@
    "py0": "yit",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "iu": {
    "text": "i·u",
    "kirby": "[iw]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 iu、xiu、chiu",
-   "py": "iu",
-   "py0": "you",
-   "note": "",
+   "py": "i'u",
+   "py0": "yi'u",
+   "note": "i'u 两个音连成一拍，中间不加 o（不是「六」的 iu）",
    "short": false,
    "stop": ""
   },
@@ -583,7 +583,7 @@
    "py0": "yek",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "iêm": {
    "text": "iᵉm",
@@ -623,7 +623,7 @@
    "py0": "yep",
    "note": "",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "iêt": {
    "text": "iᵉT",
@@ -633,14 +633,14 @@
    "py0": "yet",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "iêu": {
    "text": "iᵉu",
    "kirby": "[iəw]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 hiêu、tiêu、điêu",
-   "py": "iao",
-   "py0": "yao",
+   "py": "ieu",
+   "py0": "yeu",
    "note": "",
    "short": false,
    "stop": ""
@@ -651,7 +651,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；词表例词 mo、co、to",
    "py": "o",
    "py0": "o",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）",
    "short": false,
    "stop": ""
   },
@@ -674,7 +674,7 @@
    "py0": "wak",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）",
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住",
    "zero": "wAK"
   },
   "oach": {
@@ -683,9 +683,9 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 ach = [ɛk̟]，第382页 o 在元音前 = w；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 hoach、ngoach、oach",
    "py": "uek",
    "py0": "wek",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）",
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住",
    "zero": "wêCH"
   },
   "oai": {
@@ -738,7 +738,7 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页 anh = [ɛŋ̟]，第382页 o 在元音前 = w；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 doanh、khoanh、hoanh",
    "py": "ueng",
    "py0": "weng",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": "",
    "zero": "wêNH"
@@ -762,7 +762,7 @@
    "py0": "wap",
    "note": "",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）",
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着",
    "zero": "wAP"
   },
   "oat": {
@@ -773,7 +773,7 @@
    "py0": "wat",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）",
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住",
    "zero": "wAT"
   },
   "oay": {
@@ -793,9 +793,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 k 变双唇软腭 [ukp] Úc；词表例词 hoc、toc、ngoc",
    "py": "ok",
    "py0": "ok",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）",
    "short": false,
-   "stop": "k 舌根顶住软腭的同时双唇闭上就停住，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住，同时把嘴闭上、腮帮子鼓一下"
   },
   "oe": {
    "text": "wê",
@@ -803,7 +803,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；词表例词 oe、choe、hoe",
    "py": "ue",
    "py0": "we",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": "",
    "zero": "wê"
@@ -812,9 +812,9 @@
    "text": "wên",
    "kirby": "[wɛn]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 hoen、loen、nhoen",
-   "py": "un",
+   "py": "uen",
    "py0": "wen",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": "",
    "zero": "wên"
@@ -825,7 +825,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 khoeo、ngoeo",
    "py": "ueo",
    "py0": "weo",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
    "stop": "",
    "zero": "wêu"
@@ -836,9 +836,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰɛ] thẻ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄝ ê = ɛ 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 choet、loet、ngoet",
    "py": "uet",
    "py0": "wet",
-   "note": "e 读英语 bed 的 e，嘴张大些",
+   "note": "e 读英语 bed 的 e（比日语「え」嘴张大）",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）",
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住",
    "zero": "wêT"
   },
   "oi": {
@@ -847,7 +847,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 oi、goi、hoi",
    "py": "oi",
    "py0": "oi",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）",
    "short": false,
    "stop": ""
   },
@@ -857,7 +857,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 bom、nhom、mom",
    "py": "om",
    "py0": "om",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）",
    "short": false,
    "stop": ""
   },
@@ -867,7 +867,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 bon、mon、ngon",
    "py": "on",
    "py0": "on",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）",
    "short": false,
    "stop": ""
   },
@@ -877,7 +877,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 ŋ 变双唇软腭 [uŋ͡m] ung；词表例词 tong、vong、đong",
    "py": "ong",
    "py0": "ong",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）；ng 结尾时把嘴闭上，腮帮子鼓一下",
    "short": false,
    "stop": ""
   },
@@ -887,9 +887,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第51行 oo = ɔː；Kirby 2011《国际语音学会会刊》41(3) 第384页 oo 为长 ɔː 且不变双唇软腭；Kirby 2011《国际语音学会会刊》41(3) 第384页 [sɔːŋ] xoong、[ɓɔːŋ] boong（长）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 cooc、mooc、sooc",
    "py": "ok",
    "py0": "ok",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "oong": {
    "text": "oong",
@@ -897,7 +897,7 @@
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第384页 [sɔːŋ] xoong、[ɓɔːŋ] boong（真软腭、长元音）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [sɔːŋ] xoong、[ɓɔːŋ] boong（长）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 boong、toong、loong",
    "py": "ong",
    "py0": "ong",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）",
    "short": false,
    "stop": ""
   },
@@ -907,9 +907,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 thop、bop、chop",
    "py": "op",
    "py0": "op",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "ot": {
    "text": "oT",
@@ -917,9 +917,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɔ] to；台大 Lin & Chung 2013 注音拼音音标对照表 ㄛ o 行 (ʊ)ɔ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 lot、chot、mot",
    "py": "ot",
    "py0": "ot",
-   "note": "",
+   "note": "o 嘴张得比「哦」大（像日语「お」再张大）",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "oăc": {
    "text": "wĂK",
@@ -929,7 +929,7 @@
    "py0": "wak",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）",
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住",
    "zero": "wĂK"
   },
   "oăm": {
@@ -973,7 +973,7 @@
    "py0": "wat",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）",
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住",
    "zero": "wĂT"
   },
   "u": {
@@ -1004,15 +1004,15 @@
    "py0": "uk",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住软腭的同时双唇闭上就停住，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住，同时把嘴闭上、腮帮子鼓一下"
   },
   "ui": {
    "text": "u·i",
    "kirby": "[uj]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 ui、tui、lui",
-   "py": "ui",
-   "py0": "ui",
-   "note": "",
+   "py": "u'i",
+   "py0": "u'i",
+   "note": "u'i 两个音连成一拍，中间不加 e（不是「对」的 ui）",
    "short": false,
    "stop": ""
   },
@@ -1032,7 +1032,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 bun、vun、nhun",
    "py": "un",
    "py0": "un",
-   "note": "",
+   "note": "un 读日语「うん」，中间不带 e",
    "short": false,
    "stop": ""
   },
@@ -1040,9 +1040,9 @@
    "text": "uNGM",
    "kirby": "[uŋ͡m]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tu] tù；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ u 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 ŋ 变双唇软腭 [uŋ͡m] ung；词表例词 dung、hung、thung",
-   "py": "ong",
-   "py0": "ong",
-   "note": "",
+   "py": "ung",
+   "py0": "ung",
+   "note": "ng 结尾时把嘴闭上，腮帮子鼓一下",
    "short": false,
    "stop": ""
   },
@@ -1054,7 +1054,7 @@
    "py0": "up",
    "note": "",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "ut": {
    "text": "uT",
@@ -1064,15 +1064,15 @@
    "py0": "ut",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "uy": {
    "text": "wi",
    "kirby": "[wi]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；词表例词 tuy、thuy、uy",
-   "py": "ui",
-   "py0": "wei",
-   "note": "",
+   "py": "wi",
+   "py0": "wi",
+   "note": "wi 像日语「ウィ」",
    "short": false,
    "stop": "",
    "zero": "wi"
@@ -1081,8 +1081,8 @@
    "text": "wiᵉ",
    "kirby": "[wiə]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；词表例词 khuya、luya、xuya",
-   "py": "üe",
-   "py0": "yue",
+   "py": "wie",
+   "py0": "wie",
    "note": "",
    "short": false,
    "stop": "",
@@ -1092,20 +1092,20 @@
    "text": "wiCH",
    "kirby": "[wik̟]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 huych、uych",
-   "py": "uik",
+   "py": "wik",
    "py0": "wik",
-   "note": "",
+   "note": "wi 像日语「ウィ」",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）",
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住",
    "zero": "wiCH"
   },
   "uyn": {
    "text": "win",
    "kirby": "[win]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 tuyn",
-   "py": "uin",
+   "py": "win",
    "py0": "win",
-   "note": "",
+   "note": "wi 像日语「ウィ」",
    "short": false,
    "stop": "",
    "zero": "win"
@@ -1114,9 +1114,9 @@
    "text": "wiNH",
    "kirby": "[wiŋ̟]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 huynh、khuynh、luynh",
-   "py": "uing",
+   "py": "wing",
    "py0": "wing",
-   "note": "",
+   "note": "wi 像日语「ウィ」",
    "short": false,
    "stop": "",
    "zero": "wiNH"
@@ -1125,20 +1125,20 @@
    "text": "wiT",
    "kirby": "[wit]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 xuyt、buyt、huyt",
-   "py": "uit",
+   "py": "wit",
    "py0": "wit",
-   "note": "",
+   "note": "wi 像日语「ウィ」",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）",
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住",
    "zero": "wiT"
   },
   "uyu": {
    "text": "wi·u",
    "kirby": "[wiw]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tʰi] thi；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 khuyu、nguyu",
-   "py": "uiu",
-   "py0": "wiu",
-   "note": "",
+   "py": "wi'u",
+   "py0": "wi'u",
+   "note": "i'u 两个音连成一拍，中间不加 o（不是「六」的 iu）；wi 像日语「ウィ」",
    "short": false,
    "stop": "",
    "zero": "wi·u"
@@ -1147,8 +1147,8 @@
    "text": "wiᵉn",
    "kirby": "[wiən]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 chuyên、thuyên、nguyên",
-   "py": "üen",
-   "py0": "yuen",
+   "py": "wien",
+   "py0": "wien",
    "note": "",
    "short": false,
    "stop": "",
@@ -1158,18 +1158,18 @@
    "text": "wiᵉT",
    "kirby": "[wiət]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 huyêt、nguyêt、tuyêt",
-   "py": "üet",
-   "py0": "yuet",
+   "py": "wiet",
+   "py0": "wiet",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）",
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住",
    "zero": "wiᵉT"
   },
   "uân": {
    "text": "wÂn",
    "kirby": "[wɤ̆n]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 tuân、xuân、luân",
-   "py": "un",
+   "py": "uen",
    "py0": "wen",
    "note": "",
    "short": true,
@@ -1195,16 +1195,16 @@
    "py0": "wet",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）",
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住",
    "zero": "wÂT"
   },
   "uây": {
    "text": "wÂi",
    "kirby": "[wɤ̆j]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 khuây、nguây、uây",
-   "py": "ui",
-   "py0": "wei",
-   "note": "",
+   "py": "ue'i",
+   "py0": "we'i",
+   "note": "e 读「饿」，再轻轻带一下 i（不是「美」的 ei）",
    "short": true,
    "stop": "",
    "zero": "wÂi"
@@ -1213,9 +1213,9 @@
    "text": "wE",
    "kirby": "[we]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；词表例词 huê、thuê、khuê",
-   "py": "ui",
-   "py0": "wei",
-   "note": "",
+   "py": "ue",
+   "py0": "we",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
    "stop": "",
    "zero": "wE"
@@ -1226,9 +1226,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 tuêch、chuêch、huêch",
    "py": "uek",
    "py0": "wek",
-   "note": "e 读 ei 的开头，不滑向 i",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）",
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住",
    "zero": "wECH"
   },
   "uênh": {
@@ -1237,7 +1237,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第382页 [wan] oan、[hʷa] hoa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄨ wu 行 w，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 duênh、huênh、xuênh",
    "py": "ueng",
    "py0": "weng",
-   "note": "e 读 ei 的开头，不滑向 i",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
    "stop": "",
    "zero": "wENH"
@@ -1250,7 +1250,7 @@
    "py0": "wok",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "uôi": {
    "text": "uᵉi",
@@ -1300,7 +1300,7 @@
    "py0": "wot",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "uăng": {
    "text": "wĂng",
@@ -1351,7 +1351,7 @@
    "py0": "yit",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "yêm": {
    "text": "iᵉm",
@@ -1391,14 +1391,14 @@
    "py0": "yet",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "yêu": {
    "text": "iᵉu",
    "kirby": "[iəw]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰiə] thìa；台大 Lin & Chung 2013 注音拼音音标对照表 ㄧ i 行；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 yêu",
-   "py": "iao",
-   "py0": "yao",
+   "py": "ieu",
+   "py0": "yeu",
    "note": "",
    "short": false,
    "stop": ""
@@ -1411,7 +1411,7 @@
    "py0": "ek",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "âm": {
    "text": "Âm",
@@ -1451,7 +1451,7 @@
    "py0": "ep",
    "note": "",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "ât": {
    "text": "ÂT",
@@ -1461,7 +1461,7 @@
    "py0": "et",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "âu": {
    "text": "Âu",
@@ -1477,9 +1477,9 @@
    "text": "Âi",
    "kirby": "[ɤ̆j]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ̆m] tâm（短）；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 nây、bây、ây",
-   "py": "ei",
-   "py0": "ei",
-   "note": "",
+   "py": "e'i",
+   "py0": "e'i",
+   "note": "e 读「饿」，再轻轻带一下 i（不是「美」的 ei）",
    "short": true,
    "stop": ""
   },
@@ -1487,9 +1487,9 @@
    "text": "E",
    "kirby": "[e]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；词表例词 lê、kê、tê",
-   "py": "ei",
-   "py0": "ei",
-   "note": "",
+   "py": "e",
+   "py0": "e",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
    "stop": ""
   },
@@ -1499,9 +1499,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 k 前移 [sik̟] xích、[sɛk̟] sách；词表例词 phêch、bêch、rêch",
    "py": "ek",
    "py0": "ek",
-   "note": "e 读 ei 的开头，不滑向 i",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "êm": {
    "text": "Em",
@@ -1509,7 +1509,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 đêm、thêm、chêm",
    "py": "em",
    "py0": "em",
-   "note": "e 读 ei 的开头，不滑向 i",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
    "stop": ""
   },
@@ -1519,7 +1519,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 lên、đên、trên",
    "py": "en",
    "py0": "en",
-   "note": "e 读 ei 的开头，不滑向 i",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
    "stop": ""
   },
@@ -1529,7 +1529,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页 i e ɛ 后 ŋ 前移 [kiŋ̟] Kinh、[kɛŋ̟] canh；词表例词 lênh、mênh、bênh",
    "py": "eng",
    "py0": "eng",
-   "note": "e 读 ei 的开头，不滑向 i",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
    "stop": ""
   },
@@ -1539,9 +1539,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 nêp、bêp、kêp",
    "py": "ep",
    "py0": "ep",
-   "note": "e 读 ei 的开头，不滑向 i",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "êt": {
    "text": "ET",
@@ -1549,9 +1549,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 kêt、têt、bêt",
    "py": "et",
    "py0": "et",
-   "note": "e 读 ei 的开头，不滑向 i",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "êu": {
    "text": "Eu",
@@ -1559,7 +1559,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tʰe] thế；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 bêu、lêu、thêu",
    "py": "eu",
    "py0": "eu",
-   "note": "e 读 ei 的开头，不滑向 i",
+   "note": "e 读日语「え」，不要滑成 ei",
    "short": false,
    "stop": ""
   },
@@ -1581,7 +1581,7 @@
    "py0": "ok",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住软腭的同时双唇闭上就停住，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住，同时把嘴闭上、腮帮子鼓一下"
   },
   "ôi": {
    "text": "Oi",
@@ -1619,7 +1619,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [to] tô；Kirby 2011《国际语音学会会刊》41(3) 第383页 u o ɔ 后 ŋ 变双唇软腭 [uŋ͡m] ung；词表例词 mông、bông、dông",
    "py": "ong",
    "py0": "ong",
-   "note": "",
+   "note": "o 读日语「お」（不要读成「龙」的 ong）；ng 结尾时把嘴闭上，腮帮子鼓一下",
    "short": false,
    "stop": ""
   },
@@ -1631,7 +1631,7 @@
    "py0": "op",
    "note": "",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "ôt": {
    "text": "OT",
@@ -1641,7 +1641,7 @@
    "py0": "ot",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "ăc": {
    "text": "ĂK",
@@ -1651,7 +1651,7 @@
    "py0": "ak",
    "note": "",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "ăm": {
    "text": "Ăm",
@@ -1691,7 +1691,7 @@
    "py0": "ap",
    "note": "",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "ăt": {
    "text": "ĂT",
@@ -1701,7 +1701,7 @@
    "py0": "at",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "ơ": {
    "text": "e",
@@ -1717,9 +1717,9 @@
    "text": "e·i",
    "kirby": "[ɤj]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页 [tɤ] tờ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄜ e 行北京音 ɤ，同一音标；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 đơi、tơi、chơi",
-   "py": "ei",
-   "py0": "ei",
-   "note": "",
+   "py": "e'i",
+   "py0": "e'i",
+   "note": "e 读「饿」，再轻轻带一下 i（不是「美」的 ei）",
    "short": false,
    "stop": ""
   },
@@ -1751,7 +1751,7 @@
    "py0": "ep",
    "note": "",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "ơt": {
    "text": "eT",
@@ -1761,7 +1761,7 @@
    "py0": "et",
    "note": "",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "ư": {
    "text": "Ư",
@@ -1779,7 +1779,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；词表例词 mưa、bưa、thưa",
    "py": "ue",
    "py0": "ue",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "note": "u 嘴唇扁着发（像日语「う」），e 读「饿」",
    "short": false,
    "stop": ""
   },
@@ -1791,15 +1791,15 @@
    "py0": "uk",
    "note": "u 嘴唇扁着发（像日语「う」）",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "ưi": {
    "text": "Ưi",
    "kirby": "[ɯj]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 cưi、chưi、gưi",
-   "py": "ui",
-   "py0": "ui",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "py": "u'i",
+   "py0": "u'i",
+   "note": "u 嘴唇扁着发（像日语「う」）；u'i 两个音连成一拍，中间不加 e（不是「对」的 ui）",
    "short": false,
    "stop": ""
   },
@@ -1819,7 +1819,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 chưn、sưn",
    "py": "un",
    "py0": "un",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "note": "u 嘴唇扁着发（像日语「う」）；un 读日语「うん」，中间不带 e",
    "short": false,
    "stop": ""
   },
@@ -1841,15 +1841,15 @@
    "py0": "ut",
    "note": "u 嘴唇扁着发（像日语「う」）",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "ưu": {
    "text": "Ưu",
    "kirby": "[ɯw]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第384页 [tɯ] từ；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 hưu、mưu、ưu",
-   "py": "ou",
-   "py0": "ou",
-   "note": "",
+   "py": "u'u",
+   "py0": "u'u",
+   "note": "前一个 u 嘴唇扁着发（像日语「う」）；' 两边连成一拍读，中间不加音",
    "short": false,
    "stop": ""
   },
@@ -1859,17 +1859,17 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 k 不除阻；词表例词 ươc、phươc、tươc",
    "py": "uek",
    "py0": "uek",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "note": "u 嘴唇扁着发（像日语「う」），e 读「饿」",
    "short": false,
-   "stop": "k 舌根顶住就停，不出声（像美式英语 back 结尾的 k）"
+   "stop": "k 不念出来，像日语「がっこう」的「っ」那样停住"
   },
   "ươi": {
    "text": "Ưᵉi",
    "kirby": "[ɯəj]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 j；台大 Lin & Chung 2013 注音拼音音标对照表 ㄞ ai 行尾 i，同一音标；词表例词 cươi、ngươi、tươi",
-   "py": "uei",
-   "py0": "uei",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "py": "ue'i",
+   "py0": "ue'i",
+   "note": "u 嘴唇扁着发（像日语「う」），e 读「饿」；' 两边连成一拍读，中间不加音",
    "short": false,
    "stop": ""
   },
@@ -1879,7 +1879,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 m；台大 Lin & Chung 2013 注音拼音音标对照表 ㄇ m 行，同一音标；词表例词 bươm、chươm、cươm",
    "py": "uem",
    "py0": "uem",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "note": "u 嘴唇扁着发（像日语「う」），e 读「饿」",
    "short": false,
    "stop": ""
   },
@@ -1889,7 +1889,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 n；台大 Lin & Chung 2013 注音拼音音标对照表 ㄢ an 行韵尾 n，同一音标；词表例词 lươn、bươn、sươn",
    "py": "uen",
    "py0": "uen",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "note": "u 嘴唇扁着发（像日语「う」），e 读「饿」",
    "short": false,
    "stop": ""
   },
@@ -1899,7 +1899,7 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 ŋ；台大 Lin & Chung 2013 注音拼音音标对照表 ㄤ ang 行韵尾 ŋ，同一音标；词表例词 nương、tương、dương",
    "py": "ueng",
    "py0": "ueng",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "note": "u 嘴唇扁着发（像日语「う」），e 读「饿」",
    "short": false,
    "stop": ""
   },
@@ -1909,9 +1909,9 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 p 不除阻；词表例词 cươp、bươp、chươp",
    "py": "uep",
    "py0": "uep",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "note": "u 嘴唇扁着发（像日语「う」），e 读「饿」",
    "short": false,
-   "stop": "p 嘴闭上就停，不出声（像美式英语 stop 结尾的 p）"
+   "stop": "p 不念出来，像日语「いっぱい」的「っ」那样停住，嘴闭着"
   },
   "ươt": {
    "text": "ƯᵉT",
@@ -1919,17 +1919,17 @@
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 t 不除阻；词表例词 ươt、lươt、trươt",
    "py": "uet",
    "py0": "uet",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "note": "u 嘴唇扁着发（像日语「う」），e 读「饿」",
    "short": false,
-   "stop": "t 舌尖顶住就停，不出声（像美式英语 cat 结尾的 t）"
+   "stop": "t 不念出来，像日语「いったい」的「っ」那样停住"
   },
   "ươu": {
    "text": "Ưᵉu",
    "kirby": "[ɯəw]",
    "src": "Kirby 的 vPhon 程序 rules.py（提交 076a5d3，北方口音） 第36–125行（拼写→音位）；Kirby 2011《国际语音学会会刊》41(3) 第385页双元音 [tʰɯə] thưa；Kirby 2011《国际语音学会会刊》41(3) 第383页韵尾 w；台大 Lin & Chung 2013 注音拼音音标对照表 ㄡ ou 行尾 u，同一音标；词表例词 phươu、bươu、rươu",
-   "py": "ueu",
-   "py0": "ueu",
-   "note": "u 嘴唇扁着发（像日语「う」）",
+   "py": "ue'u",
+   "py0": "ue'u",
+   "note": "u 嘴唇扁着发（像日语「う」），e 读「饿」；' 两边连成一拍读，中间不加音",
    "short": false,
    "stop": ""
   }
@@ -1974,7 +1974,7 @@
    "like": "≈半三声",
    "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升",
    "mand": 3,
-   "note": "短促往下压，尾巴嗓子一紧"
+   "note": "短短往下一压，最后嗓子一紧（像日语「あっ」那样突然收住）"
   },
   "nang_stop": {
    "digits": "21",
@@ -2000,7 +2000,7 @@
    "like": "≈二声",
    "like_src": "维基百科 Standard Chinese phonology 声调：一声 55 或 44、二声 35、三声 214、四声 51，半三声只降不升",
    "mand": 2,
-   "note": "中间嗓子卡一下再扬上去"
+   "note": "往上扬，中间嗓子顿一下（像英语 uh-oh 中间那一下）"
   }
  },
  "marks": {
@@ -2093,19 +2093,19 @@
   "P": {
    "say": "双唇闭上就停住，不张开、不出气",
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻",
-   "like": "美式英语 stop 结尾的 p（嘴闭上就停）",
+   "like": "日语「いっぱい」的「っ」、美式英语 stop 结尾的 p（嘴闭上就停）",
    "like_src": "维基百科 No audible release：美式英语词尾塞音通常不放开"
   },
   "T": {
    "say": "舌尖顶上齿龈就停住，不放开、不出气",
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻，t 在齿龈",
-   "like": "美式英语 cat 结尾的 t（舌尖顶住就停）",
+   "like": "日语「いったい」的「っ」、美式英语 cat 结尾的 t（舌尖顶住就停）",
    "like_src": "维基百科 No audible release：美式英语词尾塞音通常不放开"
   },
   "K": {
    "say": "舌根顶住软腭就停住，不放开、不出气",
    "src": "Kirby 2011《国际语音学会会刊》41(3) 第383页：韵尾塞音 p t k 不除阻",
-   "like": "美式英语 back 结尾的 k（舌根顶住就停）",
+   "like": "日语「がっこう」的「っ」、美式英语 back 结尾的 k（舌根顶住就停）",
    "like_src": "维基百科 No audible release：美式英语词尾塞音通常不放开"
   },
   "NH": {

@@ -9,8 +9,11 @@
     'ê': ['ê̄', 'ế', 'ê̌', 'ề']
   };
 
-  // Pinyin rule: a, else e / ê, else o, else the last of i u ü.
+  // Pinyin rule: a, else e / ê, else o, else the last of i u ü. A rhyme written with the
+  // dividing mark ' (e'i, u'i, i'u) carries the tone on the letter before the mark.
   function toneIndex(py) {
+    var q = py.indexOf("'");
+    if (q > 0) return q - 1;
     var i = py.indexOf('a');
     if (i < 0) i = py.search(/[eê]/);
     if (i < 0) i = py.indexOf('o');
@@ -35,9 +38,12 @@
     if (!ini || !rh || !tn || rh.py == null || ini.py == null || tn.mand == null) return null;
     var rpy = s.initial === '' ? rh.py0 : rh.py;
     var front = /^[iü]/.test(rh.py);  // the rhyme starts with an i / ü sound
-    var py = (front ? ini.py_i : ini.py) + rpy;
+    var ipy = front ? ini.py_i : ini.py;
+    // qu + an i rhyme: gu + i would be pinyin gui [kwei]; the glide is written w (quý ≈ gwí)
+    if (/u$/.test(ipy) && /^i/.test(rpy)) ipy = ipy.slice(0, -1) + 'w';
+    var py = ipy + rpy;
     var inline = [];
-    if (rh.short && !/短/.test(tn.note || '')) inline.push('短');
+    if (rh.short && !/短/.test(tn.note || '')) inline.push('元音念短');
     if (tn.note) inline.push(tn.note);
     var below = [];
     var inote = front ? ini.note_i : ini.note;
