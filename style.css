@@ -53,6 +53,14 @@ main {
            calc(env(safe-area-inset-bottom) + 24px) calc(env(safe-area-inset-left) + 16px);
 }
 h1 { font-size: 34px; line-height: 41px; font-weight: 700; margin: 8px 0 12px; }
+/* Language switch: a segmented control (two buttons, the pressed one raised) */
+.seg { display: inline-flex; padding: 2px; border-radius: 9px; background: var(--line); }
+.seg button { font: inherit; font-size: 15px; line-height: 20px; padding: 6px 16px; border: 0;
+  border-radius: 7px; background: transparent; color: var(--text); }
+.seg button[aria-pressed="true"] { background: var(--card); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
+/* Burmese letters stand taller than Latin ones: a font that has them and room above / below */
+:lang(my) { font-family: "Myanmar Sangam MN", "Noto Sans Myanmar", "Padauk", "Myanmar Text", sans-serif; }
+.vi:lang(my) { line-height: 36px; }
 h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: none; margin: 24px 16px 6px; }
 
 #q {
@@ -99,7 +107,7 @@ h2 { font-size: 13px; font-weight: 400; color: var(--muted); text-transform: non
    letter (no match in the three), small kana = its consonant only, stacked = said at once. */
 .say { font-size: 22px; line-height: 30px; color: var(--pron); white-space: nowrap; }
 .p-en { color: var(--en); }
-.p-vn { color: var(--vn); font-weight: 600; }
+.p-vn, .p-my { color: var(--vn); font-weight: 600; }
 .p-small { font-size: 0.75em; }
 .tm { position: relative; }
 .tm .bl { display: inline-block; width: 0; height: 0; vertical-align: baseline; }

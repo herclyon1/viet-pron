@@ -23,7 +23,8 @@
   function read(s, t) {
     var say = (t.say || {})[s.initial + '|' + s.rhyme];
     var tn = (t.tones || {})[s.toneKey] || (t.tones || {})[s.tone];
-    if (!say || !tn || !tn.mark) return null;
+    // mark 0: a toneless syllable (Burmese weak [ə]), written like a pinyin neutral tone
+    if (!say || !tn || tn.mark == null) return null;
     var out = [], placed = false, catchAt = -1;
     say.forEach(function (p) {
       // ·e (table) is shown as a plain e with no tone mark: in pinyin an unmarked syllable
@@ -34,8 +35,8 @@
         // ッ already keeps the vowel apart from what follows, so a ' before it goes
         if (tn.catch === 'mid') q.t = q.t.replace(/'$/, '');
         // ê with a mark on its hat reads like ễ: the mark is drawn above the hat instead
-        var m = (q.s === 'py' || q.s === 'en') && !/ê/.test(q.t) && markLetter(q.t, tn.mark);
-        if (m) q.t = m; else { q.mark = tn.mark; if (/ê/.test(q.t)) q.hi = true; }
+        var m = tn.mark && (q.s === 'py' || q.s === 'en') && !/ê/.test(q.t) && markLetter(q.t, tn.mark);
+        if (m) q.t = m; else if (tn.mark) { q.mark = tn.mark; if (/ê/.test(q.t)) q.hi = true; }
         out.push(q);
         if (tn.catch === 'mid') catchAt = out.length;
         return;
